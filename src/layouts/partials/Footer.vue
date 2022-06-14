@@ -10,7 +10,7 @@
 
     <g-link to="/logo/" style="margin-left: .5rem">Logo & assets</g-link>
 
-</br>
+</br></br>
     cPanel, WebHost Manager and WHM are registered trademarks of <g-link to="https://cpanel.net/">cPanel, Inc.</g-link></br>
 This website is not affiliated with cPanel Inc.
   </footer>
