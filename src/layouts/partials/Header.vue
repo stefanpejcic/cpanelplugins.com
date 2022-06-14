@@ -12,31 +12,10 @@
       <nav class="header-actions flex">
         <ToggleTheme />
 
-        <a
-          aria-label="Twitter"
-          href="//twitter.com/gridsome"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Follow us on Twitter"
-        >
-          <twitter-logo/>
-        </a>
-
-        <a
-          aria-label="Discord"
-          href="//discord.gg/daeay6n"
-          rel="noopener noreferrer"
-          class="hide-for-small"
-          target="_blank"
-          title="Join our discord"
-        >
-          <discord-logo/>
-        </a>
-
         <div class="has-dropdown">
           <a
             aria-label="GitHub"
-            href="//github.com/gridsome"
+            href="/docs"
             rel="noopener noreferrer"
             target="_blank"
             title="Gridsome @ GitHub"
