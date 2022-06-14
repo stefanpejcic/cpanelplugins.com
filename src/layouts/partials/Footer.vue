@@ -1,9 +1,6 @@
 <template>
   <footer class="text-center">
   © 2022 plugins.club All rights reserved.</br>
-    cPanel, WebHost Manager and WHM are registered trademarks of <g-link to="https://cpanel.net/">cPanel, Inc.</g-link></br>
-This website is not affiliated with cPanel Inc.</br>
-
     <a
       class="plain"
       href="//github.com/gridsome/gridsome/graphs/contributors"
@@ -13,6 +10,9 @@ This website is not affiliated with cPanel Inc.</br>
 
     <g-link to="/logo/" style="margin-left: .5rem">Logo & assets</g-link>
 
+</br>
+    cPanel, WebHost Manager and WHM are registered trademarks of <g-link to="https://cpanel.net/">cPanel, Inc.</g-link></br>
+This website is not affiliated with cPanel Inc.
   </footer>
 </template>
 
