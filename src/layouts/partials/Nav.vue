@@ -1,19 +1,20 @@
 <template>
   <nav class="main-nav flex gap-15">
-    <g-link to="/docs/">
-      <span class="main-nav__label">Docs</span>
-    </g-link>
 
     <g-link to="/starters/">
-      <span class="main-nav__label">Starters</span>
+      <span class="main-nav__label">cPanel</span>
     </g-link>
 
     <g-link to="/plugins/">
-      <span class="main-nav__label">Plugins</span>
+      <span class="main-nav__label">WordPress</span>
     </g-link>
 
     <g-link to="/blog/">
       <span class="main-nav__label">Blog</span>
+    </g-link>
+	
+	<g-link to="/docs/">
+      <span class="main-nav__label">Support</span>
     </g-link>
   </nav>
 </template>

@@ -7,7 +7,7 @@
           <h3 class="menu-item" >Browse</h3>
 
           <g-link class="menu-item menu-link" to="/starters/">
-            All starters
+            All cPanel plugins
           </g-link>
 
           <h3 class="menu-item" >Platforms</h3>
