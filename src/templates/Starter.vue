@@ -5,13 +5,6 @@
 
         <strong class="starter__header-title">{{ $page.starter.title }}</strong>
 
-        <g-link
-          v-if="$page.starter.author.path"
-          :to="$page.starter.author.path"
-          class="starter__header-author">
-            by {{ $page.starter.author.title }}
-        </g-link>
-
         <div class="flex gap-20 hide-for-small" style="margin-left: auto">
           <a
             rel="noopener noreferrer"
