@@ -1,10 +1,10 @@
 <template>
 	<Section dots="true">
 		<h2 class="container text-center">
-      A better way to build websites & apps
+      Easy to customize and extend!
     </h2>
     <p class="lead text-center container-md">
-    	Gridsome makes it simple & fast to build modern websites for any data source.
+    	All our code is open-source and can be easily customized
     </p>
 
 		<div class="home-examples mb-x2">
