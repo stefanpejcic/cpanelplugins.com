@@ -14,7 +14,7 @@
     </g-link>
 	
 	<g-link to="/docs/">
-      <span class="main-nav__label">Support</span>
+      <span class="main-nav__label">About</span>
     </g-link>
   </nav>
 </template>
