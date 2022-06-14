@@ -51,8 +51,8 @@
   logo: ./logos/craftcms.svg
 
 - id: strapi
-  title: Strapi
-  logo: ./logos/strapi.svg
+  title: cPanel
+  logo: ./logos/cp.svg
 
 - id: directus
   title: Directus
