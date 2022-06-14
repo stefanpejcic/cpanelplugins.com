@@ -47,11 +47,8 @@
             >Support</span>
           </a>
           <div class="dropdown">
-            <a href="//github.com/gridsome/gridsome" rel="noopener noreferrer" target="_blank">
+            <a href="/docs" rel="noopener noreferrer" target="_blank">
               Documentation
-            </a>
-            <a href="//github.com/gridsome/gridsome/blob/master/gridsome/CHANGELOG.md" rel="noopener noreferrer" target="_blank">
-              Core Changelog
             </a>
             <a href="//github.com/gridsome/gridsome/issues" rel="noopener noreferrer" target="_blank">
               FAQ
