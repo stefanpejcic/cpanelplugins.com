@@ -1,6 +1,6 @@
 <template>
   <Section>
-  	<h2 class="text-center mb-x2">Gridsome Sponsors</h2>
+  	<h2 class="text-center mb-x2">Hosting companies already using our products</h2>
     <div class="grid-cols container container-md grid-cols--2">
     	<Card class="sponsor text-center">
 	      <g-image src="~/assets/images/logo-netlify.svg" alt="Netlify"/>

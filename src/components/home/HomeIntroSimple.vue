@@ -7,7 +7,7 @@
         </h1>
 
         <p class="intro__lead lead post mb">
-          with our custom plugins <g-link to="/cp/">cPanel / WHM</g-link> and <g-link to="/wp/">WordPress</g-link> 🚀
+          with our custom plugins for <g-link to="/cp/">cPanel / WHM</g-link> and <g-link to="/wp/">WordPress</g-link> 🚀
         </p>
 
         <p class="intro__links">

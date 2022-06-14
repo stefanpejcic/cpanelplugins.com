@@ -41,30 +41,23 @@
             target="_blank"
             title="Gridsome @ GitHub"
           >
-            <github-logo
-              height="20px"
-              width="20px"
-            />
             <span
               class="hide-for-small"
               style="margin-left:5px;"
-            >v{{ $static.metadata.gridsomeVersion }}</span>
+            >Support</span>
           </a>
           <div class="dropdown">
             <a href="//github.com/gridsome/gridsome" rel="noopener noreferrer" target="_blank">
-              Core Repository
+              Documentation
             </a>
             <a href="//github.com/gridsome/gridsome/blob/master/gridsome/CHANGELOG.md" rel="noopener noreferrer" target="_blank">
               Core Changelog
             </a>
             <a href="//github.com/gridsome/gridsome/issues" rel="noopener noreferrer" target="_blank">
-              Core Issues
+              FAQ
             </a>
              <a href="//github.com/gridsome/gridsome/projects/2" rel="noopener noreferrer" target="_blank">
-              Gridsome Roadmap
-            </a>
-            <a href="//github.com/gridsome/gridsome.org" rel="noopener noreferrer" target="_blank">
-              Website Repository
+              Open Ticket
             </a>
           </div>
         </div>

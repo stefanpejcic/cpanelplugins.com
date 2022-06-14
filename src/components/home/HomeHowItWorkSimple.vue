@@ -2,13 +2,13 @@
   <Section class="works">
     <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
 
-      <Card title="Bring your data">
-        <h4>CMSs</h4>
-        <p>Any Headless CMS, Contentful, WordPress, Drupal, Sanity.io, etc.</p>
-        <h4>Data</h4>
-        <p>Any APIs, Databases, AirTable, YAML, CSV, JSON, etc.</p>
-        <h4>Markdown</h4>
-        <p>Any Git-based CMS, Forestry, Netlify CMS, Blogs, Documentation.</p>
+      <Card title="Download plugins">
+        <h4>cPanel</h4>
+        <p>Rock Your cPanel And Integrate it with other web applications and platforms.</p>
+        <h4>WordPress</h4>
+        <p>Unique Plugins • Regular Updates • Live Chat Support</p>
+        <h4>PHP Scripts</h4>
+        <p>Custom made and free PHP scripts</p>
 
         <template slot="outer">
           <Dots class="hide-for-small"/>
@@ -16,7 +16,7 @@
         </template>
       </Card>
 
-      <Card title="Build" class="text-center flex-align-middle">
+      <Card title="Add more features" class="text-center flex-align-middle">
 
         <div class="works__logo">
           <gridsome-logo />
@@ -41,7 +41,7 @@
         </template>
       </Card>
 
-      <Card title="Deploy">
+      <Card title="Offer more value">
         <h4>Static Web Hosts & CDNs</h4>
         <p>
           <g-link to="/docs/deploy-to-netlify/">Netlify</g-link>, <g-link to="/docs/deploy-to-amplify/">AWS Amplify</g-link>, <g-link to="/docs/deploy-to-vercel/">Vercel</g-link>, <g-link to="/docs/deploy-to-amazon-s3/">Amazon S3</g-link>, <g-link to="/docs/deploy-to-surge-sh/">Surge.sh</g-link>, Aerobatic, <g-link to="/docs/deploy-to-21yunbox/">21YunBox</g-link> & many more.
