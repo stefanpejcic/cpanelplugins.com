@@ -9,19 +9,19 @@
     - title: Deployment
       link: /docs/deployment/
 
-- title : 🪵 Login Log cPanel plugin
+- title : cPanel
   items:
-    - title: Directory structure
+    - title: 🪵 Login Log cPanel plugin
       link: /docs/directory-structure/
-    - title: Project configuration
+    - title: 🔴 Malware Scanner cPanel plugin
       link: /docs/config/
-    - title: Pages
+    - title: 📧 IMAPSync cPanel Plugin
       link: /docs/pages/
-    - title: Collections
+    - title: 🎩 RBL check cPanel plugin
       link: /docs/collections/
-    - title: Templates
+    - title: 🤖 .htaccess Editor
       link: /docs/templates/
-    - title: Layouts
+    - title: 🦠 Simple Virus Scanner
       link: /docs/layouts/
     - title: Components
       link: /docs/components/
@@ -36,7 +36,7 @@
     - title: Environment Variables
       link: /docs/environment-variables/
 
-- title : Working with data
+- title : WordPress
   items:
     - title: GraphQL data layer
       link: /docs/data-layer/
@@ -55,7 +55,7 @@
     - title: Client-side data
       link: /docs/client-side-data/
 
-- title : Styles and Assets
+- title : PHP scripts
   items:
     - title: Use CSS in Gridsome
       link: /docs/assets-css/
