@@ -3,23 +3,23 @@
     <div class="container text-center ">
 
         <h1 class="intro__title">
-          <span>A Jamstack framework for Vue.js</span>
+          <span>BRING MORE VALUE TO CUSTOMERS </br>than your competition..</span>
         </h1>
 
         <p class="intro__lead lead post mb">
-          Gridsome makes it easy for developers to build static generated websites & apps that are <g-link to="/docs/fast-by-default/">fast by default</g-link> 🚀
+          with our custom plugins <g-link to="/cp/">cPanel / WHM</g-link> and <g-link to="/wp/">WordPress</g-link> 🚀
         </p>
 
         <p class="intro__links">
           <g-link  to="/docs/" class="button primary button--large">
-            <span>Get started</span>
+            <span>Browse plugins</span>
           </g-link>
         </p>
 
         <p class="intro__info">
-          <span>Open-source MIT Licensed. </span>
+          <span>or </span>
           <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
-            <span>GitHub (v{{ $static.metadata.gridsomeVersion }})</span>
+            <span>Join the club</span>
           </a>
         </p>
     </div>
