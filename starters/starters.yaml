@@ -1,19 +1,7 @@
-- title: Default starter
-  repo: gridsome/gridsome-starter-default
-  author: gridsome
-  featured: true
-
-- title: Default WordPress starter
+- title: Looking for WordPress plugins?
   repo: gridsome/gridsome-starter-wordpress
-  author: gridsome
+  author: click here
   platforms: wordpress
-  featured: true
-
-- title: Default Contentful starter
-  repo: gridsome/gridsome-starter-contentful
-  author: gridsome
-  tags: markdown, tailwind
-  platforms: contentful
   featured: true
 
 - title: Gridsome Blog Starter

@@ -10,7 +10,7 @@
             All cPanel plugins
           </g-link>
 
-          <h3 class="menu-item" >Platforms</h3>
+          <h3 class="menu-item" >Categories</h3>
 
           <g-link class="menu-item platform-link" v-for="item in platforms"  :key="item.node.id" :to="item.node.path" >
             <g-image v-if="item.node.logo" :src="item.node.logo" :alt="item.node.title"/>
@@ -21,7 +21,7 @@
           </g-link>
 
           <hr />
-          <g-link to="/docs/how-to-contribute/#submit-a-starter">Submit a Starter →</g-link>
+          <g-link to="/docs/how-to-contribute/#submit-a-starter">Have a plugin idea? →</g-link>
       </div>
 
       <Section class="starters-content container flex-fit">
