@@ -11,9 +11,9 @@
 
 - title : cPanel
   items:
-    - title: 🪵 Login Log cPanel plugin
+    - title: 📜 Login Log cPanel plugin
       link: /docs/directory-structure/
-    - title: 🔴 Malware Scanner cPanel plugin
+    - title: 🔴 Malware Scanner
       link: /docs/config/
     - title: 📧 IMAPSync cPanel Plugin
       link: /docs/pages/
