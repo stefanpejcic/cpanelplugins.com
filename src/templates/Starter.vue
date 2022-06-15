@@ -33,7 +33,7 @@
 
             <div slot="content">
               <p style="margin-bottom: .5rem; display: block;">
-              Install locally with <strong><g-link to="/docs/gridsome-cli/">Gridsome CLI</g-link></strong>
+              To install this plugin zou need to have <strong><g-link to="/docs/gridsome-cli/">root</g-link></strong> account
               </p>
               <div class="mb">
                 <code class="starter__command flex">
@@ -49,10 +49,10 @@
               <hr />
               <div class="deploy-buttons flex">
                 <a class="button button--small" :href="codeSandboxUrl">
-                  <CodeSandboxLogo alt="CodeSandbox" height="16" /> Open in CodeSandbox
+                  <CodeSandboxLogo alt="CodeSandbox" height="16" /> Installation Service $9.95
                 </a>
                 <a class="button button--small" :href="netlifyDeployUrl">
-                  <NetlifyLogo alt="Netlify" /> Deploy to Netlify
+                  <NetlifyLogo alt="Netlify" /> Template Integration $19.95
                 </a>
               </div>
             </div>
