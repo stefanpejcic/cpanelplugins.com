@@ -55,7 +55,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'Modern Site Generator for Vue.js'
+    title: 'Unique cPanel and WordPress plugins'
   }
 }
 </script>

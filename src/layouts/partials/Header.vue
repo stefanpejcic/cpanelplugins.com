@@ -21,8 +21,7 @@
             title="Gridsome @ GitHub"
           >
             <span
-              class="hide-for-small"
-              style="margin-left:5px;"
+             style="margin-left:5px;"
             >Support</span>
           </a>
           <div class="dropdown">
