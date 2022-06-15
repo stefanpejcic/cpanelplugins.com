@@ -1,23 +1,10 @@
 ---
-title: File-based page routing
-filepath: src/pages/HelloWorld.vue
-filetype: vue
+title: Specify directory root for Simple Virus Scanner
+filepath: simple-virus-scanner-cpanel-plugin/index.live.php
+filetype: php
 order: 3
 ---
-```html
-<template>
-  <Layout>
-    <!-- Any .vue file in /src/pages will be a route. -->
-    <!-- This page will be 'mysite.com/hello-world' -->
-    <h1>Hello World!</h1>
-  </Layout>
-</template>
-
-<script>
-export default {
-  // Use vue-meta to add & customize meta tags
-  metaInfo: {
-    title: 'Hello World'
-  }
-}
-</script>
+```php
+public function __construct($rootFolder = __DIR__)
+	{
+		$this->rootFolder = ("/home/f32d23/");
