@@ -19,7 +19,7 @@
       <Card title="Add more features" class="text-center flex-align-middle">
 
         <div class="works__logo">
-          <gridsome-logo />
+          <img src="https://dihost.io/img/cP_white_RGB.png" style="max-width: 70%; margin-bottom: 0;">
           <div class="works__pulse-bg"></div>
           <div class="works__pulse-bg"></div>
         </div>

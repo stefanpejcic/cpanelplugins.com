@@ -200,7 +200,7 @@ query ($id: ID!) {
 
     @media screen and (min-width: 850px) {
       position: sticky;
-      top: calc(var(--header-height) + 4px);
+      top: calc(var(--header-height) + 20px);
     }
   }
   &__header-title {
