@@ -6,6 +6,9 @@ order: 1
 ---
 ```php
 <?php
+
+// Add your preferred list of DNSBL's
+
 function dnsbllookup($ip){
         $dnsbl_lookup=array(
         "bl.spamcop.net",
@@ -15,6 +18,6 @@ function dnsbllookup($ip){
         "relays.mail-abuse.org",
         "spam.dnsbl.sorbs.net",
         "spamguard.leadmon.net",
-        "zen.spamhaus.org"); // Add your preferred list of DNSBL's
+        "zen.spamhaus.org");
 
 ```

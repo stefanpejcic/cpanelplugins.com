@@ -8,7 +8,9 @@ order: 3
 <script>
 
 // add AbuseIPDB links to the table
-// side effect: sets the IP column in last place
+// to set custom links replace baseUrl
+// example: https://lookup.abusix.com/search?q=
+
 
 (function () {
     var table = document.getElementById('table');
