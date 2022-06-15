@@ -1,5 +1,5 @@
 ---
-title: Add custom RBL to 🎩 RBL check cPanel plugin
+title: Add custom blacklist to 🎩 RBL check cPanel plugin
 filepath: rbl-check-cpanel-plugin/check.live.php 
 filetype: vue
 order: 1
