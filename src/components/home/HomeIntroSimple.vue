@@ -7,7 +7,7 @@
         </h1>
 
         <p class="intro__lead lead post mb">
-          with our custom plugins for <g-link to="/cp/">cPanel / WHM</g-link> and <g-link to="/wp/">WordPress</g-link> 🚀
+          with our custom plugins for <g-link to="/cp/">cPanel / WHM</g-link>
         </p>
 
         <p class="intro__links">
@@ -16,12 +16,12 @@
           </g-link>
         </p>
 
-        <p class="intro__info">
+        <!--p class="intro__info">
           <span>or </span>
           <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
             <span>Join the club</span>
           </a>
-        </p>
+        </p-->
     </div>
   </Section>
 </template>

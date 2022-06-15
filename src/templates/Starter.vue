@@ -28,7 +28,7 @@
 
           <Popover name="InstallThis" :closeOnContentClick="false">
             <div slot="face">
-              <button class="button primary button--small">Install now  </button>
+              <button class="button primary button">Install now  </button>
             </div>
 
             <div slot="content">
