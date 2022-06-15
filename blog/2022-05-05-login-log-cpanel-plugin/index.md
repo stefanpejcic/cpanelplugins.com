@@ -10,12 +10,18 @@ This plugin streamlines the process by allowing both SysAdmins and cPanel users 
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
 
+#### Features
+
+- generate table
+- outputs client ip
+- add links to abuseipdb
+
 #### How to install the plugin
 
 To install this free cpanel plugin you need access to the WHM and terminal. Login to SSH and run the following commands to install the plugin:
 
 
-PaperLatern theme:
+- PaperLatern theme:
 
 ```html
 wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
@@ -24,7 +30,7 @@ unzip main.zip
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
 ```
 
-Jupiter theme:
+- Jupiter theme:
 
 ```html
 wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
@@ -57,7 +63,7 @@ Please see the additional services area below if you require assistance outside 
 
 #### Whats next
 
-In the next couple of months we're going to continue to improve the docs, create tutorials, add more source & transformer plugins and fix bugs.
+In the next couple of months we're going to continue to improve the docs, create tutorials and fix bugs.
 
 #### Contribute to Gridsome
 
