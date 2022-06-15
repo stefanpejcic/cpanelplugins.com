@@ -1,8 +1,8 @@
 ---
 title: Login Log cPanel plugin 🎉💚
 slug: login-log-cpanel-plugin
-author: [tommyvedvik]
-date: 2018-10-10
+author: [stefanpejcic]
+date: 2021-05-05
 excerpt: "When we find malicious code on a user’s website, we scan his files with a plugin such as ImunifyAV and check .lastlogin file for any suspicious IP addresses that have been reported in the AbuseIP database. </br>
 
 This plugin streamlines the process by allowing both SysAdmins and cPanel users to quickly view file content and check IPs in the AbuseIPDB."
@@ -42,15 +42,14 @@ unzip main.zip
 
 ### Changelog
 
-v1.0.1
+####v1.0.1
 Released: May 22th, 2022
 
 Added links to abuseipdb
 jquery updated
 
--------------------------------
 
-v1.0.0
+####v1.0.0
 Released: May 1th, 2022
 
 Stable Release
