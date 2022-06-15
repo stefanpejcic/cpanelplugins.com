@@ -1,33 +1,20 @@
 ---
-title: Build with Vue.js & GraphQL
-filepath: src/pages/Blog.vue
+title: Add custom RBL to 🎩 RBL check cPanel plugin
+filepath: rbl-check-cpanel-plugin/check.live.php 
 filetype: vue
 order: 1
 ---
 ```html
-<template>
-  <Layout>
-    <h1>My blog</h1>
-     <div v-for="{ node } in $page.allPost.edges" :key="node.id">
-      <h3>{{ node.title }}</h3>
-       <g-link :to="node.path">Read more</g-link>
-     </div>
-  </Layout>
-</template>
-
-<!-- Query from local GraphQL data layer. -->
-<page-query>
-query {
-  allPost {
-    edges {
-      node {
-        id
-        title
-        path
-      }
-    }
-  }
-}
-</page-query>
+<?php
+function dnsbllookup($ip){
+        $dnsbl_lookup=array(
+        "bl.spamcop.net",
+        "cbl.abuseat.org",
+        "dnsbl.justspam.org",
+        "dnsbl.sorbs.net",
+        "relays.mail-abuse.org",
+        "spam.dnsbl.sorbs.net",
+        "spamguard.leadmon.net",
+        "zen.spamhaus.org"); // Add your preferred list of DNSBL's
 
 ```

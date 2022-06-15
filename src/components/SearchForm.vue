@@ -8,7 +8,7 @@
         ref="input"
         :id="`${id}-input`"
         class="header-search__input"
-        placeholder="Search Gridsome docs..."
+        placeholder="Search plugins.club docs..."
         title="Search docs"
         type="search"
         @focus="onFocus"
