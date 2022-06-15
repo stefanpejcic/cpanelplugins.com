@@ -37,7 +37,7 @@
               </p>
               <div class="mb">
                 <code class="starter__command flex">
-                  <span ref="command">gridsome create my-project {{ $page.starter.repo }}</span>
+                  <span ref="command">wget https://github.com/{{ $page.starter.repo }}/archive/refs/heads/main.zip && unzip main.zip</span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />
                     <span style="margin-left: 0"> Copy </span>

@@ -26,7 +26,7 @@ export default {
     StarterCard
   },
   metaInfo: {
-    title: 'Starters'
+    title: 'cPanel plugins'
   }
 }
 </script>

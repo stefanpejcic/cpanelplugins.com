@@ -1,6 +1,6 @@
 <template>
   <Starters>
-    <h1>{{ $page.platform.title }} starters</h1>
+    <h1>{{ $page.platform.title }} plugins</h1>
 
     <div class="grid-cols grid-cols--3 mb">
       <StarterCard v-for="starter in $page.platform.belongsTo.edges" :key="starter.node.id" :node="starter.node"  />
@@ -64,7 +64,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: `${this.$page.platform.title} starters`
+      title: `${this.$page.platform.title} plugins`
     }
   }
 }
