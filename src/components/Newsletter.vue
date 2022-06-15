@@ -1,6 +1,6 @@
 <template>
 	<Card class="newsletter" id="mc_embed_signup">
-		<p class="mb-half"><strong>👋 Stay in the loop.</strong> Subscribe to plugins.club newsletter!</p>
+		<p class="mb-half"><strong>👋 Stay in the loop.</strong> Subscribe to CpanelPlugins newsletter!</p>
 		<form action="https://gridsome.us19.list-manage.com/subscribe/post?u=960a357f3405a688ff935a10e&amp;id=42bbd30818" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter__form validate" target="_blank" novalidate>
 		<div id="mc_embed_signup_scroll" class="flex">
 			

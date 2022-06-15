@@ -1,6 +1,6 @@
 <template>
   <footer class="text-center">
-  © 2022 plugins.club All rights reserved.</br>
+  © 2022 CpanelPlugins.com All rights reserved.</br>
     <a
       class="plain"
       href="//github.com/gridsome/gridsome/graphs/contributors"

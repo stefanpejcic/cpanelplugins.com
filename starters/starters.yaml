@@ -541,7 +541,7 @@
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
   screenshot: ./screenshots/loginlog.png
   repo: stefanpejcic/lastlogin-cpanel-plugin
-  preview: https://plugins.club/log
+  preview: https://cpanelplugins.com/log
   author: coolhandcode
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi

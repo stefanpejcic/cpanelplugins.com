@@ -2,11 +2,11 @@
   <nav class="main-nav flex gap-15">
 
     <g-link to="/starters/">
-      <span class="main-nav__label">cPanel</span>
+      <span class="main-nav__label">Plugins</span>
     </g-link>
 
     <g-link to="/plugins/">
-      <span class="main-nav__label">WordPress</span>
+      <span class="main-nav__label">Scripts</span>
     </g-link>
 
     <g-link to="/blog/">
