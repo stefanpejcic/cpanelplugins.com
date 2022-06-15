@@ -49,7 +49,7 @@
               <hr />
               <div class="deploy-buttons flex">
                 <a class="button button--small" :href="codeSandboxUrl">
-                  <CodeSandboxLogo alt="CodeSandbox" height="16" /> Installation Service $9.95
+                  <cPanelLogo alt="cPanel plugin installation service" height="16" /> Installation Service $9.95
                 </a>
                 <a class="button button--small" :href="netlifyDeployUrl">
                   <NetlifyLogo alt="Netlify" /> Template Integration $19.95
@@ -92,7 +92,7 @@ import Skeleton from '~/components/Skeleton.vue'
 import ClipboardIcon from '~/assets/images/icon-clipboard.svg'
 import GithubIcon from '~/assets/images/github-logo.svg'
 import NetlifyLogo from '~/assets/images/logo-netlify-small.svg'
-import CodeSandboxLogo from '~/assets/images/logo-codesandbox.svg'
+import cPanelLogo from '~/assets/images/cp_orange.svg'
 import Popover from 'vue-popover'
 
 const cache = {}
@@ -103,7 +103,7 @@ export default {
     Skeleton,
     ClipboardIcon,
     NetlifyLogo,
-    CodeSandboxLogo,
+    cPanelLogo,
     Popover,
     GithubIcon
   },
