@@ -1,10 +1,10 @@
 ---
-title: Add custom blacklist to 🎩 RBL check cPanel plugin
+title: Add custom blacklist to RBL check cPanel plugin
 filepath: rbl-check-cpanel-plugin/check.live.php 
 filetype: vue
 order: 1
 ---
-```html
+```php
 <?php
 function dnsbllookup($ip){
         $dnsbl_lookup=array(

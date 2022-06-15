@@ -7,10 +7,11 @@ order: 2
 ```php
 
 <?php return array (
-  'file-extensions' => 'php|phtml|php3|php4|php5|phps|htaccess|png|txt|gif',
+  'file-extensions' => 'php|phtml|php3|php4|php5|phps|htaccess|txt',
   'ignored-dirs' => '.|..|.DS_Store|.svn|.git|.trash',
   'scan-dir' => '../',
   'additional-strings' => '',
-); ?>
+); 
+?>
 
 ```
