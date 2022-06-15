@@ -33,7 +33,7 @@
 
             <div slot="content">
               <p style="margin-bottom: .5rem; display: block;">
-              To install this plugin zou need to have <strong><g-link to="/docs/gridsome-cli/">root</g-link></strong> account
+              To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account
               </p>
               <div class="mb">
                 <code class="starter__command flex">
@@ -48,12 +48,12 @@
               </div>
               <hr />
               <div class="deploy-buttons flex">
-                <a class="button button--small" :href="codeSandboxUrl">
-                  <cPanelLogo alt="cPanel plugin installation service" height="16" /> Installation Service $9.95
+                <a class="button button--small" :href="plugin-installation">
+                  <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
-                <a class="button button--small" :href="netlifyDeployUrl">
+                <!--a class="button button--small" :href="netlifyDeployUrl">
                   <NetlifyLogo alt="Netlify" /> Template Integration $19.95
-                </a>
+                </a-->
               </div>
             </div>
           </Popover>
