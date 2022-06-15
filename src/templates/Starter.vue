@@ -37,7 +37,9 @@
               </p>
               <div class="mb">
                 <code class="starter__command flex">
-                  <span ref="command">wget https://github.com/{{ $page.starter.repo }}/archive/refs/heads/main.zip && unzip main.zip</span>
+                  <span ref="command">
+				  wget -O - https://raw.githubusercontent.com/{{ $page.starter.repo }}/main/install_plugin.sh | bash
+				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />
                     <span style="margin-left: 0"> Copy </span>
