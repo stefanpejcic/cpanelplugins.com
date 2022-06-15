@@ -1,8 +1,8 @@
 <template>
   <div class="logo" @contextmenu="rightClick" oncontextmenu="return false;">
     <g-link class="logo__link" to="/" title="Back to home">
-      <Logo class="logo__svg hide-for-small" alt="Gridsome.org" />
-      <LogoSmall class="logo__svg show-for-small logo__svg--small" alt="Gridsome.org" />
+	<h1 class="hide-for-small" alt="CpanelPlugins.com" style="margin-top: revert;">CpanelPlugins</h1>
+	<h1 class="show-for-small" alt="CpanelPlugins.com" style="margin-top: revert;">CP</h1>
     </g-link>
   </div>
 </template>
