@@ -19,7 +19,7 @@
         </template>
       </Card>
 
-      <Card title="cPanel Hosting" class="text-center flex-align-middle">
+      <Card title="" class="text-center flex-align-middle">
 
         <div class="works__logo">
           <img src="/logos/cpanel-plugins.png" style="max-width: 70%; margin-bottom: 0;">
@@ -44,7 +44,7 @@
         </template>
       </Card>
 
-      <Card title="Axpert Support">
+      <Card title="Expert Support">
         <h4>cPanel SysAdmin services</h4>
         <p>
         </p>
