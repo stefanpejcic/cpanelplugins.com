@@ -1,12 +1,12 @@
 <template>
-  <Layout :footer="false">
-    <div class="plugins container flex flex-align-top" style="position: relative;">
+  <Layout>
+    <Section container="sm" class="text-center">
+      <h1>About CpanelPlugins</h1>
 
-          <div class="plugin-post__content mb" v-if="hit" v-html="content" />
-
-        </template>
-        <template v-else>
-          <div class="plugins-intro container-sm post">
+      <p>What is what</p>
+	  
+	  
+<div class="plugins-intro container-sm post">
             <Connect />
             <div class="plugins-intro__text">
               <h1>Safe and useful cPanel code snippets</h1>
@@ -15,157 +15,133 @@
               <p>Visit our <g-link to="/docs/how-to-create-a-plugin">WordPress.org profile</g-link></p>
             </div>
           </div>
-        </template>
-      </Section>
+		  
+      <div class="logo-container">
+      	<a href="/logos/logo-normal.svg" target="_blank">
+      		<img src="/logos/logo-normal.svg" />
+      	</a>
+   	  </div>
+
+   	  <div class="logo-container logo-container--dark">
+      	<a href="/logos/logo-normal-dark.svg" target="_blank">
+      		<img src="/logos/logo-normal-dark.svg" />
+      	</a>
+   	  </div>
+
+   	  <div class="logo-container logo-container--secondary">
+      	<a href="/logos/logo-dark.svg" target="_blank">
+      		<img src="/logos/logo-dark.svg" />
+      	</a>
+   	  </div>
+
+      <h2>Only Symbol</h2>
+      <div class="grid-cols grid-cols--2 mb">
+       <div class="logo-container">
+        <a href="/logos/only-logo.svg" target="_blank">
+          <img src="/logos/only-logo.svg" />
+        </a>
+      </div>
+      <div class="logo-container logo-container--secondary">
+        <a href="/logos/only-logo-light.svg" target="_blank">
+          <img src="/logos/only-logo-light.svg" />
+        </a>
+      </div>
      </div>
+
+      <h2>Symbol with circle background</h2>
+
+   	 <div class="grid-cols mb">
+  	   <div class="logo-container">
+      	<a href="/logos/logo-circle-normal.svg" target="_blank">
+      		<img src="/logos/logo-circle-normal.svg" />
+      	</a>
+   	  </div>
+   	  <div class="logo-container">
+      	<a href="/logos/logo-circle-dark.svg" target="_blank">
+      		<img src="/logos/logo-circle-dark.svg" />
+      	</a>
+   	  </div>
+
+   	  <div class="logo-container">
+      	<a href="/logos/logo-circle-light.svg" target="_blank">
+      		<img src="/logos/logo-circle-light.svg" />
+      	</a>
+   	  </div>
+   	 </div>
+
+   	 <h2>Colors</h2>
+
+   	 <div class="colors mb">
+
+   	 	<div class="colors__primary">
+   	 		<span>#00A672</span>
+   	 	</div>
+
+   	 	<div class="colors__secondary">
+   	 		<span>#00835C</span>
+   	 	</div>
+
+      <div class="colors__dark">
+        <span>#0d2538</span>
+      </div>
+
+   	 </div>
+
+    </Section>
   </Layout>
 </template>
 
-<script>
-import markdown from '../utils/markdown'
-import algoliasearch from 'algoliasearch/lite'
-import GitLabLogo from '~/assets/images/gitlab.svg'
-import GitHubLogo from '~/assets/images/github-logo.svg'
-import BitbucketLogo from '~/assets/images/bitbucket.svg'
-import Connect from '~/components/Connect.vue'
+<style lang="scss">
+.logo-container {
+	text-align: center;
+	margin-bottom: var(--space);
 
-import {
-  createInstantSearch,
-  AisInstantSearchSsr,
-  AisStateResults,
-  AisInfiniteHits,
-  AisHighlight,
-  AisConfigure,
-  AisSearchBox,
-  AisPoweredBy
-} from 'vue-instantsearch'
 
-const searchClient = algoliasearch(
-  'OFCNCOG2CU',
-  'e0925566b9cfa7d0d21586a0b365d78c'
-)
 
-const { instantsearch, rootMixin } = createInstantSearch({
-  indexName: 'npm-search',
-  searchClient
-})
+	&--dark {
+		background-color: var(--dark-bg);
+	}
 
-export default {
-  components: {
-    Connect,
-    AisPoweredBy,
-    AisSearchBox,
-    AisConfigure,
-    AisHighlight,
-    AisInfiniteHits,
-    AisStateResults,
-    AisInstantSearchSsr
-  },
-
-  mixins: [rootMixin],
-
-  data () {
-    return {
-      hit: null,
-      hitsPerPage: 50,
-      filters: 'keywords:gridsome-plugin AND deprecated:false'
-    }
-  },
-
-  serverPrefetch () {
-    return instantsearch.findResultsState({
-      hitsPerPage: this.hitsPerPage,
-      filters: this.filters
-    })
-  },
-
-  computed: {
-    isSingle () {
-      return Boolean(this.$route.params.id)
-    },
-
-    owners () {
-      return this.hit
-        ? this.hit.owners.map(owner => {
-            if (owner.name === 'hjvedvik') {
-              return {
-                ...owner,
-                name: 'gridsome',
-                link: 'https://www.npmjs.com/org/gridsome',
-                avatar: 'https://avatars0.githubusercontent.com/u/17981963?s=200&v=4'
-              }
-            }
-
-            return owner
-          })
-        : []
-    },
-
-    content () {
-      return this.hit && this.hit.readme
-        ? markdown(this.hit.readme)
-        : ''
-    }
-  },
-
-  watch: {
-    $route: {
-      handler: 'fetchCurrent',
-      immediate: true
-    }
-  },
-
-  metaInfo () {
-    const meta = {
-      title: 'Plugins',
-      meta: []
-    }
-
-    if (this.hit) {
-      meta.title = this.hit.name
-
-      if (this.hit.description) {
-        meta.meta.push({
-          key: 'description',
-          name: 'description',
-          content: this.hit.description
-        })
-      }
-    }
-
-    return meta
-  },
-
-  methods: {
-    async fetchCurrent () {
-      if (!this.isSingle) {
-        return
-      }
-
-      const { id: name } = this.$route.params
-      const { results: [results] } = await searchClient.search([{
-        indexName: 'npm-search',
-        query: name
-      }])
-
-      this.hit = results.hits.find(hit => hit.name === name)
-    },
-
-    hitClasses (hit) {
-      return {
-        'plugin--active': this.hit && this.hit.name === hit.name
-      }
-    },
-
-    repositoryIcon (repository) {
-      switch (repository.host) {
-        case 'github.com': GitHubLogo; break
-        case 'gitlab.com': GitLabLogo; break
-        case 'bitbucket.com': BitbucketLogo; break
-      }
-
-      return GitHubLogo
-    }
+  &--secondary {
+    background-color: var(--primary-color-dark);
   }
+
+	a {
+		display: block;
+		padding: 10%;
+	}
+	img {
+		max-width: 320px;
+		width: 100%;
+		margin: 0 auto;
+	} 
 }
-</script>
+
+.colors {
+  text-align: center;
+	div {
+		padding: 15% 5% 5px;
+		display: inline-block;
+		margin: 0 .5rem;
+		text-align: center;
+		color:#FFF;
+    outline: 1px solid rgba(0,0,0,.1);
+	}
+
+
+	&__primary {
+		background-color: var(--primary-color);
+	}
+
+	&__secondary {
+		background-color: var(--primary-color-dark);
+	}
+
+  &__dark {
+    background-color: var(--dark-bg);
+  }
+
+
+}
+
+</style>
