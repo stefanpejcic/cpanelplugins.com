@@ -5,12 +5,12 @@
       <Card title="cPanel plugins">
         <h4>Recent</h4>
 		<ul class="bullet-list mb">
-          <li><g-link to="/docs/fast-by-default/#pre-rendered-html">📜 Login Log cPanel plugin</g-link></li>
-          <li><g-link to="/docs/fast-by-default/#automatic-code-splitting">🔴 Malware Scanner</g-link></li>
-          <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🎩 RBL check cPanel plugin</g-link></li>
-		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🤖 .htaccess Editor</g-link></li>
-		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🦠 Simple Virus Scanner</g-link></li>
-		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">📧 IMAPSync cPanel Plugin</g-link></li>
+          <li>📜 <g-link to="/docs/fast-by-default/#pre-rendered-html">Login Log cPanel plugin</g-link></li>
+          <li>🔴 <g-link to="/docs/fast-by-default/#automatic-code-splitting">Malware Scanner</g-link></li>
+          <li>🎩 <g-link to="/docs/fast-by-default/#the-prpl-pattern">RBL check cPanel plugin</g-link></li>
+		  <li>🤖 <g-link to="/docs/fast-by-default/#the-prpl-pattern">.htaccess Editor</g-link></li>
+		  <li>🦠 <g-link to="/docs/fast-by-default/#the-prpl-pattern">Simple Virus Scanner</g-link></li>
+		  <li>📧 <g-link to="/docs/fast-by-default/#the-prpl-pattern">IMAPSync cPanel Plugin</g-link></li>
         </ul>
 		
         <template slot="outer">
