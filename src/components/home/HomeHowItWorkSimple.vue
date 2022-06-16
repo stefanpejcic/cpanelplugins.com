@@ -22,7 +22,7 @@
       <Card title="cPanel Hosting" class="text-center flex-align-middle">
 
         <div class="works__logo">
-          <img src="/src/assets/images/cpanel-plugins.png" style="max-width: 70%; margin-bottom: 0;">
+          <img src="/logos/cpanel-plugins.png" style="max-width: 70%; margin-bottom: 0;">
           <div class="works__pulse-bg"></div>
           <div class="works__pulse-bg"></div>
         </div>
