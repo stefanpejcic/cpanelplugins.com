@@ -9,22 +9,7 @@
 
       <nav class="header-actions flex">
         <ToggleTheme />
-<g-link to="/starters/">
-      <span class="main-nav__label show-for-small">Plugins</span>
-    </g-link>
-
-    <g-link to="/plugins/">
-      <span class="main-nav__label show-for-small">Scripts</span>
-    </g-link>
-
-    <g-link to="/blog/">
-      <span class="main-nav__label show-for-small">Blog</span>
-    </g-link>
-	
-	<g-link to="/about/">
-      <span class="main-nav__label show-for-small">About</span>
-    </g-link>
-	
+		<g-link  to="/docs/" class="button primary button--large"><span>SUPPORT</span></g-link>
         <div class="has-dropdown">
           <a
             aria-label="GitHub"

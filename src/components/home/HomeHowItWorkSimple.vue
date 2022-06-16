@@ -3,7 +3,7 @@
     <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
 
       <Card title="cPanel plugins">
-        <h4>Security</h4>
+        <h4>Recent</h4>
 		<ul class="bullet-list mb">
           <li><g-link to="/docs/fast-by-default/#pre-rendered-html">📜 Login Log cPanel plugin</g-link></li>
           <li><g-link to="/docs/fast-by-default/#automatic-code-splitting">🔴 Malware Scanner</g-link></li>
@@ -22,7 +22,7 @@
       <Card title="cPanel Hosting" class="text-center flex-align-middle">
 
         <div class="works__logo">
-          <img src="https://dihost.io/img/cP_white_RGB.png" style="max-width: 70%; margin-bottom: 0;">
+          <img src="~/assets/images/cplogo.png" style="max-width: 70%; margin-bottom: 0;">
           <div class="works__pulse-bg"></div>
           <div class="works__pulse-bg"></div>
         </div>
@@ -44,7 +44,7 @@
         </template>
       </Card>
 
-      <Card title="cPanel expert support">
+      <Card title="Axpert Support">
         <h4>cPanel SysAdmin services</h4>
         <p>
         </p>
