@@ -81,8 +81,8 @@
           <div class="plugins-intro container-sm post">
             <Connect />
             <div class="plugins-intro__text">
-              <h1>Truly unique WordPress plugins</h1>
-              <p class="lead">Our WordPress plugins help 30,000+ website owners to increase sales, engage visitors, collect leads, and more. <span class="hide-for-small">Save your time and money with ready-to-use solutions and grow your business faster! ⚡️</span></p>
+              <h1>Safe and useful cPanel code snippets</h1>
+              <p class="lead">Useful commands and opensource scripts for cPanel. <span class="hide-for-small">Save your time and money with ready-to-use solutions and grow your business faster! ⚡️</span></p>
 
               <p>Visit our <g-link to="/docs/how-to-create-a-plugin">WordPress.org profile</g-link></p>
             </div>
