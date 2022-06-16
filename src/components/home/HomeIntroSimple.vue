@@ -3,12 +3,12 @@
     <div class="container text-center ">
 
         <h1 class="intro__title">
-          <span>BRING MORE VALUE TO CUSTOMERS </br>than your competition..</span>
+          <span>Extend your hosting customers experience with our custom plugins for cPanel/WHM</span>
         </h1>
 
-        <p class="intro__lead lead post mb">
+        <!--p class="intro__lead lead post mb">
           with our custom plugins for <g-link to="/cp/">cPanel / WHM</g-link>
-        </p>
+        </p-->
 
         <p class="intro__links">
           <g-link  to="/docs/" class="button primary button--large">
@@ -16,12 +16,12 @@
           </g-link>
         </p>
 
-        <!--p class="intro__info">
+        <p class="intro__info">
           <span>or </span>
           <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
-            <span>Join the club</span>
+            <span>Get Free Project Quote</span>
           </a>
-        </p-->
+        </p>
     </div>
   </Section>
 </template>
