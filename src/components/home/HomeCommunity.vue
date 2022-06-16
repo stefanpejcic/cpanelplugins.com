@@ -1,4 +1,4 @@
-<!--template>
+<template>
   <Section>
   	<h2 class="text-center mb-x2">Hosting companies already using our products</h2>
     <div class="grid-cols container container-md grid-cols--2">
@@ -12,7 +12,7 @@
     	</Card>
     </div>
   </Section>
-</template-->
+</template>
 
 <style lang="scss">
 .sponsor {
