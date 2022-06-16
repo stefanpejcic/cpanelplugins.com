@@ -4,30 +4,30 @@
 
       <div class="sidebar">
 
-          <h3 class="menu-item" >Browse</h3>
+          <!--h3 class="menu-item" >Browse</h3>
 
           <g-link class="menu-item menu-link" to="/starters/">
             All cPanel plugins
-          </g-link>
+          </g-link-->
 
-          <h3 class="menu-item" >Categories</h3>
+          <h3 class="menu-item" >Plugins</h3>
 
-          <g-link class="menu-item menu-link" to="/starters/">
-            📜 Login Log cPanel plugin
+          <g-link class="menu-item" to="/starters/">
+            📜 Login Log
           </g-link>
-		  <g-link class="menu-item menu-link" to="/starters/">
+		  <g-link class="menu-item" to="/starters/">
             🔴 Malware Scanner
           </g-link>
-		  <g-link class="menu-item menu-link" to="/starters/">
-            🎩 RBL check cPanel plugin
+		  <g-link class="menu-item" to="/starters/">
+            🎩 RBL check
           </g-link>
-		  <g-link class="menu-item menu-link" to="/starters/">
-            📧 IMAPSync cPanel Plugin
+		  <g-link class="menu-item" to="/starters/">
+            📧 IMAPSync
           </g-link>
-		  <g-link class="menu-item menu-link" to="/starters/">
+		  <g-link class="menu-item" to="/starters/">
             🦠 Simple Virus Scanner
           </g-link>
-		  <g-link class="menu-item menu-link" to="/starters/">
+		  <g-link class="menu-item" to="/starters/">
             🤖 .htaccess Editor
           </g-link>
 		  

@@ -5,7 +5,7 @@
       <span class="main-nav__label">Plugins</span>
     </g-link>
 
-    <g-link to="/plugins/">
+    <g-link to="/scripts/">
       <span class="main-nav__label">Scripts</span>
     </g-link>
 
