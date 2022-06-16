@@ -7,8 +7,6 @@
 
       <Nav class="flex-fit"/>
 
-      <SearchForm />
-
       <nav class="header-actions flex">
         <ToggleTheme />
 
@@ -52,7 +50,6 @@ query {
 <script>
 import Logo from './Logo'
 import Nav from './Nav'
-import SearchForm from '@/components/SearchForm.vue'
 import ToggleTheme from '@/components/ToggleTheme.vue'
 import GithubLogo from '@/assets/images/github-logo.svg'
 import TwitterLogo from '@/assets/images/twitter-logo.svg'
@@ -66,7 +63,6 @@ export default {
     TwitterLogo,
     ToggleTheme,
     DiscordLogo,
-    SearchForm,
     Nav,
     LazyHydrate
   }
