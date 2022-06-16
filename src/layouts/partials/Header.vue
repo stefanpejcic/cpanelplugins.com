@@ -17,8 +17,7 @@
             rel="noopener noreferrer"
             target="_blank"
             title="Gridsome @ GitHub"
-          >
-            <span
+          ><span
              style="margin-left:5px;"
             >Support</span>
           </a>
