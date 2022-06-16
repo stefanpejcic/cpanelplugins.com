@@ -2,11 +2,11 @@
   <Section class="home-connect">
     <div class="grid-cols flex grid-cols--2 grid-cols--gap-large">
       <div class="text-center">
-        <h2>Connect the modern web</h2>
+        <h2>Custom cPanel Plugin Development</h2>
         <p class="lead">
-          The modern web is decoupled and modular. Gridsome makes it painlessly easy to build <g-link to="/docs/jamstack/">Jamstack</g-link> websites using data from multiple sources such as Content API's, Headless CMSs, and other web services.
+          We offer a broad range of services dedicated to hosting companies using cPanel and WHM. We will customize the software for you to automate your daily tasks and help you achieve all your goals.
         </p>
-        <p><g-link to="/plugins/">Browse Gridsome Plugins</g-link></p>
+        <p><g-link to="/free-quote/">Get Free Project Quote</g-link></p>
       </div>
        <div>
         <Connect />

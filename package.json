@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "algoliasearch": "^3.32.0",
     "clipboard-copy": "^3.0.0",
-    "docsearch.js": "^2.6.2",
     "gridsome": "^0.7.0",
     "marked": "^0.7.0",
     "typography": "^0.16.18",
