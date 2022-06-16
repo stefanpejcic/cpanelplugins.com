@@ -2,19 +2,19 @@
   <nav class="main-nav flex gap-15">
 
     <g-link to="/starters/">
-      <span class="main-nav__label" class="hide-for-small">Plugins</span>
+      <span class="main-nav__label hide-for-small">Plugins</span>
     </g-link>
 
     <g-link to="/plugins/">
-      <span class="main-nav__label" class="hide-for-small">Scripts</span>
+      <span class="main-nav__label hide-for-small">Scripts</span>
     </g-link>
 
     <g-link to="/blog/">
-      <span class="main-nav__label" class="hide-for-small">Blog</span>
+      <span class="main-nav__label hide-for-small">Blog</span>
     </g-link>
 	
 	<g-link to="/about/">
-      <span class="main-nav__label" class="hide-for-small">About</span>
+      <span class="main-nav__label hide-for-small">About</span>
     </g-link>
   </nav>
 </template>

@@ -10,19 +10,19 @@
       <nav class="header-actions flex">
         <ToggleTheme />
 <g-link to="/starters/">
-      <span class="main-nav__label" class="show-for-small">Plugins</span>
+      <span class="main-nav__label show-for-small">Plugins</span>
     </g-link>
 
     <g-link to="/plugins/">
-      <span class="main-nav__label" class="show-for-small">Scripts</span>
+      <span class="main-nav__label show-for-small">Scripts</span>
     </g-link>
 
     <g-link to="/blog/">
-      <span class="main-nav__label" class="show-for-small">Blog</span>
+      <span class="main-nav__label show-for-small">Blog</span>
     </g-link>
 	
 	<g-link to="/about/">
-      <span class="main-nav__label" class="show-for-small">About</span>
+      <span class="main-nav__label show-for-small">About</span>
     </g-link>
 	
         <div class="has-dropdown">
