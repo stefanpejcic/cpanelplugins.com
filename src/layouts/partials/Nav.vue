@@ -13,7 +13,7 @@
       <span class="main-nav__label">Blog</span>
     </g-link>
 	
-	<g-link to="/docs/">
+	<g-link to="/about/">
       <span class="main-nav__label">About</span>
     </g-link>
   </nav>
