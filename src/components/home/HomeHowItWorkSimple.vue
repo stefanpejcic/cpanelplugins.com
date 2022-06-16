@@ -22,7 +22,7 @@
       <Card title="cPanel Hosting" class="text-center flex-align-middle">
 
         <div class="works__logo">
-          <img src="../src/assets/images/cpanel-plugins.png" style="max-width: 70%; margin-bottom: 0;">
+          <img src="/src/assets/images/cpanel-plugins.png" style="max-width: 70%; margin-bottom: 0;">
           <div class="works__pulse-bg"></div>
           <div class="works__pulse-bg"></div>
         </div>
@@ -69,6 +69,7 @@ import WebpackLogo from '~/assets/images/webpack-logo.svg'
 import GridsomeLogo from '~/assets/images/gridsome-small-white.svg'
 import Bullet from '~/assets/images/bullet.svg'
 import Dots from '~/components/Dots.vue'
+import CPLogo from '~/assets/images/cpanel-plugins.png'
 
 export default {
   components: {
