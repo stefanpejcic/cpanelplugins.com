@@ -12,13 +12,32 @@
 
           <h3 class="menu-item" >Categories</h3>
 
-          <g-link class="menu-item platform-link" v-for="item in platforms"  :key="item.node.id" :to="item.node.path" >
-            <g-image v-if="item.node.logo" :src="item.node.logo" :alt="item.node.title"/>
-            {{ item.node.title }}
-            <span class="platform-count" :class="{'platform-count--fade-out': item.node.belongsTo.totalCount == 0}">
-              {{ item.node.belongsTo.totalCount }}
-            </span>
+          <g-link class="menu-item menu-link" to="/starters/">
+            📜 Login Log cPanel plugin
           </g-link>
+		  <g-link class="menu-item menu-link" to="/starters/">
+            🔴 Malware Scanner
+          </g-link>
+		  <g-link class="menu-item menu-link" to="/starters/">
+            🎩 RBL check cPanel plugin
+          </g-link>
+		  <g-link class="menu-item menu-link" to="/starters/">
+            📧 IMAPSync cPanel Plugin
+          </g-link>
+		  <g-link class="menu-item menu-link" to="/starters/">
+            🦠 Simple Virus Scanner
+          </g-link>
+		  <g-link class="menu-item menu-link" to="/starters/">
+            🤖 .htaccess Editor
+          </g-link>
+		  
+		  
+		  
+
+
+
+
+
 
           <hr />
           <g-link to="/docs/how-to-contribute/#submit-a-starter">Have a plugin idea? →</g-link>

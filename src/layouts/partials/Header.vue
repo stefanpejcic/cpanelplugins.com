@@ -9,7 +9,7 @@
 
       <nav class="header-actions flex">
         
-		<g-link  to="/docs/" class="button primary button hide-for-small"><span>SUPPORT</span></g-link>
+		<g-link  to="/docs/" class="button primary button hide-for-small"><span>Support</span></g-link>
         <ToggleTheme />
 		<a href="/docs" rel="noopener noreferrer" target="_blank" title="Gridsome @ GitHub"><span style="margin-left:5px;" class="show-for-small">Support</span></a>
 		<!--div class="has-dropdown">
