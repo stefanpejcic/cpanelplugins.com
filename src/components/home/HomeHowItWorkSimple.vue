@@ -2,21 +2,24 @@
   <Section class="works">
     <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
 
-      <Card title="Download plugins">
-        <h4>cPanel</h4>
-        <p>Rock Your cPanel And Integrate it with other web applications and platforms.</p>
-        <h4>WordPress</h4>
-        <p>Unique Plugins • Regular Updates • Live Chat Support</p>
-        <h4>PHP Scripts</h4>
-        <p>Custom made and free PHP scripts</p>
-
+      <Card title="cPanel plugins">
+        <h4>Security</h4>
+		<ul class="bullet-list mb">
+          <li><g-link to="/docs/fast-by-default/#pre-rendered-html">📜 Login Log cPanel plugin</g-link></li>
+          <li><g-link to="/docs/fast-by-default/#automatic-code-splitting">🔴 Malware Scanner</g-link></li>
+          <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🎩 RBL check cPanel plugin</g-link></li>
+		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🤖 .htaccess Editor</g-link></li>
+		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">🦠 Simple Virus Scanner</g-link></li>
+		  <li><g-link to="/docs/fast-by-default/#the-prpl-pattern">📧 IMAPSync cPanel Plugin</g-link></li>
+        </ul>
+		
         <template slot="outer">
           <Dots class="hide-for-small"/>
           <Dots class="dots--vertical show-for-small"/>
         </template>
       </Card>
 
-      <Card title="Add more features" class="text-center flex-align-middle">
+      <Card title="cPanel Hosting" class="text-center flex-align-middle">
 
         <div class="works__logo">
           <img src="https://dihost.io/img/cP_white_RGB.png" style="max-width: 70%; margin-bottom: 0;">
@@ -41,18 +44,17 @@
         </template>
       </Card>
 
-      <Card title="Offer more value">
-        <h4>Static Web Hosts & CDNs</h4>
+      <Card title="cPanel expert support">
+        <h4>cPanel SysAdmin services</h4>
         <p>
-          <g-link to="/docs/deploy-to-netlify/">Netlify</g-link>, <g-link to="/docs/deploy-to-amplify/">AWS Amplify</g-link>, <g-link to="/docs/deploy-to-vercel/">Vercel</g-link>, <g-link to="/docs/deploy-to-amazon-s3/">Amazon S3</g-link>, <g-link to="/docs/deploy-to-surge-sh/">Surge.sh</g-link>, Aerobatic, <g-link to="/docs/deploy-to-21yunbox/">21YunBox</g-link> & many more.
         </p>
 
         <ul class="bullet-list mb">
-          <li><Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html">Pre-rendered HTML</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">Automatic Code Splitting</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">Follows PRPL-pattern</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Smart link prefetching</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Progressive Images</g-link></li>
+          <li><Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html">cPanel plugin installation</g-link></li>
+          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">cPanel plugin template integration</g-link></li>
+          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">cPanel to cPanel migration></li>
+          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Email migration to cPanel</g-link></li>
+          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Server Monitoring & Maintenance</g-link></li>
         </ul>
       </Card>
 
