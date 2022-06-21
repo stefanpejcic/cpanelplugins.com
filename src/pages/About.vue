@@ -5,7 +5,7 @@
 
       <p>CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.</p>
     </Section>
-	<Section container="sm" class="text-center">
+	<Section container="sm">
 <p>To get your plugin listed, the following is required:</p>
 <p>- Your plugin must be publicly available on Github.</p>
 <p>- An installation script titled "install plugin.sh" must be included in the main branch.</p>
