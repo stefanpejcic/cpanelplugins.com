@@ -4,13 +4,13 @@
 
       <Feature>
         <h3>Easy to customize</h3>
-        <p>All plugins can easily be customized or White-labeled <br class="hide-for-small" /> Adding your logo is as simple as editing a single <strong>.php</strong> file.
+        <p>All plugins can easily be White-labeled <br class="hide-for-small" /> Adding your logo is as simple as editing a single <strong>.php</strong> file.
         </p>
       </Feature>
 
       <Feature>
         <h3>OpenSource</h3>
-        <p>All code is 100% open-source and can be edited.
+        <p>All code is 100% open-source and can be included in your products.
         </p>
       </Feature>
 
@@ -28,13 +28,13 @@
 
       <Feature>
         <h3>Clean code</h3>
-        <p>We follow best coding practises and technologies.
+        <p>We follow both best PHP coding practises and cPanel developer guidelines.
         </p>
       </Feature>
 
       <Feature>
         <h3>Well documented</h3>
-        <p>We do our best to maintain the docs always updated!</p>
+        <p>We do our best to keep the docs always updated!</p>
       </Feature>
 
     </div>
