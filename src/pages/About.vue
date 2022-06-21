@@ -3,8 +3,17 @@
     <Section container="sm" class="text-center">
       <h1>About CpanelPlugins</h1>
 
-      <p>What is what</p>
-
+      <p>CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.</p>
+</br>
+<p>To get your plugin listed, the following is required:</p>
+<p>- Your plugin must be publicly available on Github.</p>
+<p>- An installation script titled "install plugin.sh" must be included in the main branch.</p>
+</br>
+<p>To add your plugin:</p>
+<p>1. Fork this repo on Github</p>
+<p>2. Add your plugin information to the XXX file</p>
+<p>3. Make a pull request with the following title: ADD PLUGIN</p>
+</br>
     </Section>
   </Layout>
 </template>
