@@ -32,8 +32,8 @@ module.exports = {
   templates: {
     BlogPost: '/blog/:year/:month/:day/:slug',
     Contributor: '/contributor/:id',
-    Starter: '/starters/:title',
-    Platform: '/starters/platform/:id',
+    Plugin: '/plugins/:title',
+    Platform: '/plugins/platform/:id',
     Example: node => node.path
   },
 

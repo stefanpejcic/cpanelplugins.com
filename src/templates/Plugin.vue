@@ -1,9 +1,9 @@
 <template>
-  <Starters class="starter">
-      <div class="starter__header flex">
-        <g-image class="starter__header-platform-logo" v-if="$page.starter.platforms" :src="$page.starter.platforms.logo" />
+  <Plugins class="plugin">
+      <div class="plugin__header flex">
+        <g-image class="plugin__header-platform-logo" v-if="$page.plugin.platforms" :src="$page.plugin.platforms.logo" />
 
-        <strong class="starter__header-title">{{ $page.starter.title }}</strong>
+        <strong class="plugin__header-title">{{ $page.plugin.title }}</strong>
 
         <div class="flex gap-20 hide-for-small" style="margin-left: auto">
           <a
@@ -18,8 +18,8 @@
           <a
             rel="noopener noreferrer"
             target="_blank"
-            v-if="$page.starter.preview"
-            :href="$page.starter.preview"
+            v-if="$page.plugin.preview"
+            :href="$page.plugin.preview"
             title="Live preview"
             aria-label="Live preview"
             class="button button--blank">
@@ -36,9 +36,9 @@
               To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account
               </p>
               <div class="mb">
-                <code class="starter__command flex">
+                <code class="plugin__command flex">
                   <span ref="command">
-				  wget -O - https://raw.githubusercontent.com/{{ $page.starter.repo }}/main/install_plugin.sh | bash
+				  wget -O - https://raw.githubusercontent.com/{{ $page.plugin.repo }}/main/install_plugin.sh | bash
 				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />
@@ -61,12 +61,12 @@
       </div>
 
 
-      <div class="starter__image" style="order:2" v-if="$page.starter.screenshot">
-        <g-image :src="$page.starter.screenshot" />
+      <div class="plugin__image" style="order:2" v-if="$page.plugin.screenshot">
+        <g-image :src="$page.plugin.screenshot" />
       </div>
       <hr v-else />
 
-      <div class="starter__content">
+      <div class="plugin__content">
 
         <div style="width: 80%;" v-if="isLoading">
           <Skeleton />
@@ -81,13 +81,13 @@
 
         <div v-html="readme" />
       </div>
-  </Starters>
+  </Plugins>
 </template>
 
 <script>
 import clipboard from 'clipboard-copy'
 import markdown from '../utils/markdown'
-import Starters from '~/layouts/Starters.vue'
+import Plugins from '~/layouts/Plugins.vue'
 import Skeleton from '~/components/Skeleton.vue'
 import ClipboardIcon from '~/assets/images/icon-clipboard.svg'
 import GithubIcon from '~/assets/images/github-logo.svg'
@@ -99,7 +99,7 @@ const cache = {}
 
 export default {
   components: {
-    Starters,
+    Plugins,
     Skeleton,
     ClipboardIcon,
     NetlifyLogo,
@@ -117,27 +117,27 @@ export default {
 
   computed: {
     siteName () {
-      return this.$page.starter.repo.split('/')[1]
+      return this.$page.plugin.repo.split('/')[1]
     },
     githubUrl () {
-      return `https://github.com/${this.$page.starter.repo}`
+      return `https://github.com/${this.$page.plugin.repo}`
     },
     netlifyDeployUrl () {
-      return `https://app.netlify.com/start/deploy?repository=https://github.com/${this.$page.starter.repo}`
+      return `https://app.netlify.com/start/deploy?repository=https://github.com/${this.$page.plugin.repo}`
     },
     codeSandboxUrl () {
-      return `https://codesandbox.io/s/github/${this.$page.starter.repo}`
+      return `https://codesandbox.io/s/github/${this.$page.plugin.repo}`
     }
   },
 
   metaInfo () {
     return {
-      title: this.$page.starter.title
+      title: this.$page.plugin.title
     }
   },
 
   async mounted () {
-    const { repo } = this.$page.starter
+    const { repo } = this.$page.plugin
     const url = `https://api.github.com/repos/${repo}/readme`
 
     if (cache[repo]) {
@@ -167,7 +167,7 @@ export default {
 
 <page-query>
 query ($id: ID!) {
-  starter(id: $id) {
+  plugin(id: $id) {
     title
     repo
     path
@@ -186,7 +186,7 @@ query ($id: ID!) {
 </page-query>
 
 <style lang="scss">
-.starter {
+.plugin {
   &__header {
     padding: 20px 10px 15px;
     font-size: .9rem;

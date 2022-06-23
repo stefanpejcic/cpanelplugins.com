@@ -42,22 +42,22 @@ module.exports = function (api) {
       })
     })
 
-    // Starters
-    const startersPath = path.join(__dirname, 'starters/starters.yaml')
-    const startersRaw = await fs.readFile(startersPath, 'utf8')
-    const startersJson = yaml.safeLoad(startersRaw)
-    const starters = addCollection('Starter')
+    // Plugins
+    const pluginsPath = path.join(__dirname, 'plugins/plugins.yaml')
+    const pluginsRaw = await fs.readFile(pluginsPath, 'utf8')
+    const pluginsJson = yaml.safeLoad(pluginsRaw)
+    const plugins = addCollection('Plugin')
 
     // Connect author field to Contributors & Platforms
-    starters.addReference('author', 'Contributor')
-    starters.addReference('platforms', 'Platform')
+    plugins.addReference('author', 'Contributor')
+    plugins.addReference('platforms', 'Platform')
 
-    startersJson.forEach((starter, index) => {
-      starters.addNode({
-        ...starter,
+    pluginsJson.forEach((plugin, index) => {
+      plugins.addNode({
+        ...plugin,
         index,
         internal: {
-          origin: startersPath
+          origin: pluginsPath
         }
       })
     })

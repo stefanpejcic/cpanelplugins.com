@@ -17,10 +17,10 @@
 
       <PostCard v-for="edge in $page.contributor.posts.edges" :key="edge.node.id" :post="edge.node"/>
 
-      <h3 class="text-center" v-if="$page.contributor.starters.edges.length">Starters</h3>
+      <h3 class="text-center" v-if="$page.contributor.plugins.edges.length">Plugins</h3>
 
       <div class="grid-cols grid-cols--2">
-        <StarterCard v-for="starter in $page.contributor.starters.edges" :key="starter.node.id" :node="starter.node" />
+        <PluginCard v-for="plugin in $page.contributor.plugins.edges" :key="plugin.node.id" :node="plugin.node" />
       </div>
     </Section>
   </Layout>
@@ -59,7 +59,7 @@ query ($id: ID!) {
         }
       }
     }
-    starters: belongsTo(filter: {typeName: {eq: Starter}}) {
+    plugins: belongsTo(filter: {typeName: {eq: Plugin}}) {
       totalCount
       pageInfo {
         totalPages
@@ -67,7 +67,7 @@ query ($id: ID!) {
       }
       edges {
         node {
-          ...on Starter {
+          ...on Plugin {
               id
               title
               description
@@ -93,12 +93,12 @@ query ($id: ID!) {
 
 <script>
 import PostCard from '@/components/PostCard.vue'
-import StarterCard from '@/components/StarterCard.vue'
+import PluginCard from '@/components/PluginCard.vue'
 
 export default {
   components: {
     PostCard,
-    StarterCard
+    PluginCard
   },
   metaInfo () {
     return {

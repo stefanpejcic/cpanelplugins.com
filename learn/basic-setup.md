@@ -1,8 +1,8 @@
 # 1. Basic Gridsome
 
-## Install the starter
+## Install the plugin
 
-## Starter overview
+## Plugin overview
 
 ## Set site title & description
 

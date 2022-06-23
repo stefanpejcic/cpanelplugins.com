@@ -9,11 +9,11 @@
         <span class="main-nav__label">Source data</span>
       </g-link>
 
-      <g-link to="/starters/...">
+      <g-link to="/plugins/...">
         <span class="main-nav__label">Query data</span>
       </g-link>
 
-      <g-link to="/starters/">
+      <g-link to="/plugins/">
         <span class="main-nav__label">Filter data</span>
       </g-link>
 

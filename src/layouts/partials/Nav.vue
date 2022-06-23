@@ -1,7 +1,7 @@
 <template>
   <nav class="main-nav flex gap-15">
 
-    <g-link to="/starters/">
+    <g-link to="/plugins/">
       <span class="main-nav__label">Plugins</span>
     </g-link>
 

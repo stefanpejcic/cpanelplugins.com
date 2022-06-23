@@ -17,9 +17,9 @@
 				<p>Enhance your Gridsome site with amazing plugins.</p>
 			</Card>
 
-			<Card class="ecosystem__item" link="/starters">
-				<icon-starters />
-				<h4>Starters</h4>
+			<Card class="ecosystem__item" link="/plugins">
+				<icon-plugins />
+				<h4>Plugins</h4>
 				<p>Browse premade Gridsome projects to get started quickly.</p>
 			</Card>
 
@@ -36,14 +36,14 @@
 <script>
 import IconPlugins from '@/assets/images/icon-plugins.svg'
 import IconDocs from '@/assets/images/icon-docs.svg'
-import IconStarters from '@/assets/images/icon-starters.svg'
+import IconPlugins from '@/assets/images/icon-plugins.svg'
 import IconBlog from '@/assets/images/icon-blog.svg'
 
 export default {
 	components: {
 		IconPlugins,
 		IconDocs,
-		IconStarters,
+		IconPlugins,
 		IconBlog
 	}
 }

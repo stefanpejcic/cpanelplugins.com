@@ -1,9 +1,9 @@
 <template>
-  <Starters>
+  <Plugins>
     <h1>{{ $page.platform.title }} plugins</h1>
 
     <div class="grid-cols grid-cols--3 mb">
-      <StarterCard v-for="starter in $page.platform.belongsTo.edges" :key="starter.node.id" :node="starter.node"  />
+      <PluginCard v-for="plugin in $page.platform.belongsTo.edges" :key="plugin.node.id" :node="plugin.node"  />
 
       <div v-if="$page.platform.belongsTo.edges.length == 0">
         <em>Nothing here yet...</em>
@@ -19,7 +19,7 @@
       community channel in Gridsome Discord.
     </p>
 
-  </Starters>
+  </Plugins>
 </template>
 
 <page-query>
@@ -29,7 +29,7 @@ query ($id: ID!) {
     belongsTo(sortBy: "index") {
       edges {
         node {
-          ... on Starter {
+          ... on Plugin {
             id
             title
             description
@@ -54,13 +54,13 @@ query ($id: ID!) {
 </page-query>
 
 <script>
-import Starters from '~/layouts/Starters.vue'
-import StarterCard from '~/components/StarterCard.vue'
+import Plugins from '~/layouts/Plugins.vue'
+import PluginCard from '~/components/PluginCard.vue'
 
 export default {
   components: {
-    Starters,
-    StarterCard
+    Plugins,
+    PluginCard
   },
   metaInfo () {
     return {
