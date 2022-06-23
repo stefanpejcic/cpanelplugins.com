@@ -528,20 +528,20 @@
   platforms: markdown
 
 
-- title: Gridsome Starter Portfolio
-  description: A Gridsome starter using Windi CSS and Markdown to create a portfolio page.
-  screenshot: ./screenshots/gridsome-starter-scroll-1680x1680.jpg
-  repo: ionos-deploy-now/gridsome-starter-scroll
+- title: Inodes Usage Summary cPanel Plugin
+  description: Display Inodes and Disk usage summary for a cPanel account
+  screenshot: ./screenshots/inodes-usage-summary.png
+  repo: stefanpejcic/inodes-usage-summary-cPanel-plugin
   preview: https://gridsome-starter-scroll.deploy-now.site/
-  author: hunsalz
+  author: stefanpejcic
   tags: gridsome, starter, windicss, portfolio
-  platforms: markdown
+  platforms: strapi
 
 - title: 📜 Login Log cPanel plugin
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
   screenshot: ./screenshots/loginlog.png
   repo: stefanpejcic/lastlogin-cpanel-plugin
   preview: https://cpanelplugins.com/log
-  author: coolhandcode
+  author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi
