@@ -1,8 +1,6 @@
 # cpanelplugins.com
 
-This is a fork of the gridsome.org website from 2022.
-
--------------
+<img src="https://raw.githubusercontent.com/stefanpejcic/cpanelplugins.com/master/plugins/screenshots/cpanel-plugins-homepage.png"></img>
 
 CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.
 
@@ -17,3 +15,10 @@ To add your plugin:
 1. Fork this repo on Github
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
+
+
+-------------
+
+This is a fork of the gridsome.org website from 2022.
+
+-------------
