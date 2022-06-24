@@ -518,14 +518,14 @@
   tags: blog
   platforms: markdown
 
-- title: Gridsome Geek Blog
-  description: Geek Blog built with Gridsome, Windi CSS and more with Markdown Support.
-  screenshot: ./screenshots/gridsome-plugin-geek-blog.png
-  repo: xqsit94/gridsome-plugin-geek-blog
+- title: Malware Scanner cPanel plugin
+  description: Scan PHP files for known malicious signatures.
+  screenshot: ./screenshots/malware-scanner.png
+  repo: stefanpejcic/malware-scanner-cpanel-plugin
   preview: https://gridsome-geek-blog.netlify.app
-  author: xqsit94
+  author: stefanpejcic
   tags: blog
-  platforms: markdown
+  platforms: strapi
 
 
 - title: Inodes Usage Summary cPanel Plugin
