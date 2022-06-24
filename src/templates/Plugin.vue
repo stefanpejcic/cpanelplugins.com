@@ -52,7 +52,7 @@
                   <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
                 <!--a class="button button--small" :href="netlifyDeployUrl">
-                  <NetlifyLogo alt="Netlify" /> Template Integration $19.95
+                  Template Integration $19.95
                 </a-->
               </div>
             </div>
@@ -101,7 +101,6 @@ export default {
     Plugins,
     Skeleton,
     ClipboardIcon,
-    NetlifyLogo,
     cPanelLogo,
     Popover,
     GithubIcon
