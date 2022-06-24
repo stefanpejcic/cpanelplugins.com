@@ -6,8 +6,32 @@
     </g-link>
 
     <g-link to="/scripts/">
-      <span class="main-nav__label">Scripts</span>
+      <span class="main-nav__label">Services</span>
     </g-link>
+	
+	<div class="has-dropdown">
+          <a
+            aria-label="GitHub"
+            href="/services"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Cpanel SysAdmin Services"
+          ><span
+             style="margin-left:5px;"
+            >Support</span>
+          </a>
+          <div class="dropdown">
+            <a href="/docs" rel="noopener noreferrer" target="_blank">
+              Documentation
+            </a>
+            <a href="//github.com/gridsome/gridsome/issues" rel="noopener noreferrer" target="_blank">
+              FAQ
+            </a>
+             <a href="//github.com/gridsome/gridsome/projects/2" rel="noopener noreferrer" target="_blank">
+              Open Ticket
+            </a>
+          </div>
+	
 
     <g-link to="/blog/">
       <span class="main-nav__label">Blog</span>

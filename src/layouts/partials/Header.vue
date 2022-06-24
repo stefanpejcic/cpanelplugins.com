@@ -11,7 +11,7 @@
         
 		<g-link  to="/docs/" class="button primary button hide-for-small"><span>Support</span></g-link>
         <ToggleTheme />
-		<a href="/docs" rel="noopener noreferrer" target="_blank" title="Gridsome @ GitHub"><span style="margin-left:5px;" class="show-for-small">Support</span></a>
+		<a href="/docs" rel="noopener noreferrer" target="_blank" title="CpanelPlugins Docs"><span style="margin-left:5px;" class="show-for-small">Support</span></a>
 		<!--div class="has-dropdown">
           <a
             aria-label="GitHub"
