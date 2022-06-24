@@ -509,14 +509,14 @@
   author: angiemvella
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
 
-- title: TW Blog - The Tailwind + Markdown Gridsome Blog
-  description: A Gridsome plugin using Tailwind and Markdown to create a simple portfolio blog.
-  screenshot: ./screenshots/gridsome-plugin-twBlog-SampleImage.png
-  repo: terabytetiger/gridsome-plugin-twblog
+- title: RBL Check cPanel plugin
+  description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
+  screenshot: ./screenshots/rbl-checker.png
+  repo: stefanpejcic/rbl-check-cpanel-plugin
   preview: https://twblog.terabytetiger.com
-  author: terabytetiger
+  author: stefanpejcic
   tags: blog
-  platforms: markdown
+  platforms: strapi
 
 - title: Malware Scanner cPanel plugin
   description: Scan PHP files for known malicious signatures.
