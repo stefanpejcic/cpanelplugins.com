@@ -1,14 +1,6 @@
 <template>
   <footer class="text-center">
   © 2022 CpanelPlugins.com All rights reserved.</br>
-    <a
-      class="plain"
-      href="//github.com/gridsome/gridsome/graphs/contributors"
-      rel="noopener noreferrer"
-      target="_blank"
-    >Contributors</a>.
-
-    <g-link to="/logo/" style="margin-left: .5rem">Logo & assets</g-link>
 
 </br></br>
     cPanel, WebHost Manager and WHM are registered trademarks of <g-link to="https://cpanel.net/">cPanel, Inc.</g-link></br>
