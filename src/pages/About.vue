@@ -1,19 +1,24 @@
 <template>
   <Layout>
-    <Section container="sm" class="text-center">
+    <Section container="sm" class="text-center" style="max-width:1200px!important">
       <h1>About CpanelPlugins</h1>
 
       <p>CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.</p>
+	  <p>Hi there, I'm Stefan Pejcic - a Linux SysAdmin and WordPress plugin developer.
+		I run a blog PCx3.com where I write mostly about Linux and cPanel. Recently when doing research for my new post: <a href="https://pcx3.com/cp/how-to-create-a-cpanel-plugin/">How to create a cPanel plugin</a> I discovered that publishing a cpanel plugin was pretty much the same as for a WordPress plugin, and woundered why 99% of plugins are premium. I decided to change that and publish a few cPanel plugins that I find useful such as Inode Usage Summary and Login Log.</br.
+A few months later I was testing various Vue.js CMS's and encountered Gridsome. I did a few tutorials on <a href="https://pcx3.com/cp/how-to-install-gridsome-on-cpanel-shared-hosting/">How to install Gridsome on cPanel shared hosting</a> and while doing so, I fell in love with the simplicity and speed of Gridsome. Decided to use it instead my go-to CMS (WordPress) for a repository where one could download all my existing cpanel plugins.</p>
     </Section>
 	<Section container="sm">
 <p>To get your plugin listed, the following is required:</p>
-<p>- Your plugin must be publicly available on Github.</p>
-<p>- An installation script titled "install plugin.sh" must be included in the main branch.</p>
+<ul>
+<li>Your plugin must be publicly available on Github.</li>
+<li>installation script titled "install plugin.sh" must be included in the main branch.</li>
+</ul>
 </br>
 <p>To add your plugin:</p>
-<p>Fork this repo on Github: <a href="https://github.com/stefanpejcic/cpanelplugins.com" target="_blank">https://github.com/stefanpejcic/cpanelplugins.com</a></p>
-<p>Add your plugin information to the <a href="https://github.com/stefanpejcic/cpanelplugins.com/edit/master/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</p>
-<p>3. Make a pull request with the following title: ADD PLUGIN</p>
+<p>Fork this repo on Github: <a href="https://github.com/stefanpejcic/cpanelplugins.com" target="_blank">https://github.com/stefanpejcic/cpanelplugins.com</a></br>
+Add your plugin information to the <a href="https://github.com/stefanpejcic/cpanelplugins.com/edit/master/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</br>
+3. Make a pull request with the following title: ADD PLUGIN</p>
 </br>
     </Section>
   </Layout>
