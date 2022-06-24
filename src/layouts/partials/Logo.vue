@@ -11,7 +11,7 @@
 export default {
   methods: {
     rightClick() {
-      this.$router.push({ path: '/logo' })
+      this.$router.push({ path: '/about' })
       return false
     }
   }
