@@ -5,50 +5,11 @@
 
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      activeSlide: 0
-    }
-  },
-
-  mounted () {
-    (($vm) => {
-      (function animate () {
-        $vm._counter = setTimeout(() => {
-          $vm.activeSlide = ($vm.activeSlide + 1) % 3
-          requestAnimationFrame(animate)
-        }, 1500)
-      })()
-    })(this)
-  },
-
-  destroyed () {
-    clearTimeout(this._counter)
-  }
-}
-</script>
 
 <style lang="scss">
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 1s, transform 1s;
-  transform: translateY(0);
-}
-
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateY(5px);
-}
-
 .connect {
   position: relative;
-
-  img {
-    margin: 0;
-    width: 100%;
-  }
 
   svg,
   &__slide,
@@ -62,9 +23,4 @@ export default {
 
 }
 
-@keyframes DotsAnim{
-  100% {
-      stroke-dashoffset: -30;
-  }
-}
 </style>
