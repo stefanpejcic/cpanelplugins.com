@@ -1,10 +1,10 @@
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  siteName: 'CpanelPlugins',
+  siteName: 'Gridsome',
   siteUrl: `https://sweet-peony-734550.netlify.app`,
-  titleTemplate: '%s - CpanelPlugins',
-  siteDescription: 'CpanelPlugins offers professional plugins for cPanel and WHM',
+  titleTemplate: '%s - Gridsome',
+  siteDescription: 'Gridsome is a free & open source Vue.js-powered framework for building websites & apps that are fast by default 🚀.',
 
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')
