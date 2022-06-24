@@ -11,8 +11,8 @@
 <p>- An installation script titled "install plugin.sh" must be included in the main branch.</p>
 </br>
 <p>To add your plugin:</p>
-<p>1. Fork this repo on Github</p>
-<p>2. Add your plugin information to the XXX file</p>
+<p>Fork this repo on Github: <a href="https://github.com/stefanpejcic/cpanelplugins.com" target="_blank">https://github.com/stefanpejcic/cpanelplugins.com</a></p>
+<p>Add your plugin information to the <a href="https://github.com/stefanpejcic/cpanelplugins.com/edit/master/plugins/plugins.yaml" target="_blank">plugins/plugins.yaml</a> file</p>
 <p>3. Make a pull request with the following title: ADD PLUGIN</p>
 </br>
     </Section>
