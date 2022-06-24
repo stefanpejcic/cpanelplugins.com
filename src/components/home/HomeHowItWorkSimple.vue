@@ -31,9 +31,9 @@
           Compatible with v.<strong>104</strong>
         </p>
 
-        <ul class="works__tools flex gap-15 text-center flex--center">
+        <!--ul class="works__tools flex gap-15 text-center flex--center">
           <a href="#"><li>Looking for WP plugins?</li></a>
-        </ul>
+        </ul-->
 
         <template slot="outer">
           <Dots class="hide-for-small"/>

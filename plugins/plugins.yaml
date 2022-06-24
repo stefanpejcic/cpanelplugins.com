@@ -501,31 +501,32 @@
   author: ashalfarhan
   tags: chakra-ui, emotion
 
-- title: Gridsome BLNK Plugin
-  description: BLNK is a skeleton plugin for Gridsome.
-  screenshot: ./screenshots/gridsome-plugin-blnk-840x840.jpg
-  repo: angiemvella/gridsome-plugin-blnk
+- title: 🔴 Simple Virus Scanner cPanel plugin
+  description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
+  screenshot: ./screenshots/svs.png
+  repo: stefanpejcic/simple-virus-scanner-cpanel-plugin
   preview: https://gridsome-plugin-blnk.netlify.app
-  author: angiemvella
+  author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+   platforms: strapi 
 
-- title: TW Blog - The Tailwind + Markdown Gridsome Blog
-  description: A Gridsome plugin using Tailwind and Markdown to create a simple portfolio blog.
-  screenshot: ./screenshots/gridsome-plugin-twBlog-SampleImage.png
-  repo: terabytetiger/gridsome-plugin-twblog
+- title: RBL check cPanel plugin
+  description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
+  screenshot: ./screenshots/rbl-checker.png
+  repo: stefanpejcic/rbl-check-cpanel-plugin
   preview: https://twblog.terabytetiger.com
-  author: terabytetiger
+  author: stefanpejcic
   tags: blog
-  platforms: markdown
+  platforms: strapi
 
-- title: Gridsome Geek Blog
-  description: Geek Blog built with Gridsome, Windi CSS and more with Markdown Support.
-  screenshot: ./screenshots/gridsome-plugin-geek-blog.png
-  repo: xqsit94/gridsome-plugin-geek-blog
+- title: Malware Scanner cPanel plugin
+  description: detailed info: description, MD5 hash, size, permissions, created/modified time, etc.
+  screenshot: ./screenshots/malware-scanner.png
+  repo: stefanpejcic/malware-scanner-cpanel-plugin
   preview: https://gridsome-geek-blog.netlify.app
-  author: xqsit94
+  author: stefanpejcic
   tags: blog
-  platforms: markdown
+  platforms: strapi
 
 
 - title: Inodes Usage Summary cPanel Plugin
