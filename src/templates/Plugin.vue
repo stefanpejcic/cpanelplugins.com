@@ -91,7 +91,6 @@ import Plugins from '~/layouts/Plugins.vue'
 import Skeleton from '~/components/Skeleton.vue'
 import ClipboardIcon from '~/assets/images/icon-clipboard.svg'
 import GithubIcon from '~/assets/images/github-logo.svg'
-import NetlifyLogo from '~/assets/images/logo-netlify-small.svg'
 import cPanelLogo from '~/assets/images/cp_orange.svg'
 import Popover from 'vue-popover'
 
