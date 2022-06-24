@@ -224,14 +224,6 @@ export default {
     height: 100%;
     position: absolute;
   }
-  svg
-   path {
-    stroke-linecap: round;
-    stroke-dasharray: 0.5 30;
-    stroke: var(--primary-color-dark);
-    animation: DotsAnim 600ms linear infinite;
-    opacity: .6;
-  }
 
 }
 
