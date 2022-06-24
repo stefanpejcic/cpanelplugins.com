@@ -16,7 +16,7 @@
   platforms: contentful
   featured: true
 
-- title: 🔴 Simple Virus Scanner cPanel plugin
+- title: 🔴 Simple Virus Scanner cpanel plugin
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
   screenshot: ./screenshots/svs.png
   repo: stefanpejcic/simple-virus-scanner-cpanel-plugin
@@ -25,7 +25,7 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
-- title: RBL Check cPanel plugin
+- title: RBL Check cpanel plugin
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
   screenshot: ./screenshots/rbl-checker.png
   repo: stefanpejcic/rbl-check-cpanel-plugin
@@ -34,7 +34,7 @@
   tags: blog
   platforms: strapi
 
-- title: Malware Scanner cPanel plugin
+- title: Malware Scanner cpanel plugin
   description: Scan PHP files for known malicious signatures.
   screenshot: ./screenshots/malware-scanner.png
   repo: stefanpejcic/malware-scanner-cpanel-plugin
@@ -44,7 +44,7 @@
   platforms: strapi
 
 
-- title: Inodes Usage Summary cPanel Plugin
+- title: Inodes Usage Summary cpanel Plugin
   description: Display Inodes and Disk usage summary for a cPanel account
   screenshot: ./screenshots/inodes-usage-summary.png
   repo: stefanpejcic/inodes-usage-summary-cPanel-plugin
@@ -53,7 +53,7 @@
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
 
-- title: 📜 Login Log cPanel plugin
+- title: 📜 Login Log cpanel plugin
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
   screenshot: ./screenshots/loginlog.png
   repo: stefanpejcic/lastlogin-cpanel-plugin
