@@ -1,7 +1,6 @@
 <template>
-  <div class="connect">
-    
-    <transition-group name="fade">
+
+<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 608.9 468" style="enable-background:new 0 0 608.9 468;" xml:space="preserve">
 <style type="text/css">
@@ -167,9 +166,8 @@
 	/>
 </g>
 <rect xmlns="http://www.w3.org/2000/svg" x="0" y="54.4" fill="none" stroke="#ddd" rx="10px" width="552.3" height="412"/>
+</svg>
 
-
-  </div>
 </template>
 
 <script>
