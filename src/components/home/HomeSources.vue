@@ -23,16 +23,6 @@
   </div>
 </template>
 
-<script>
-import Logo from '@/components/logos/gridsome-small'
-
-export default {
-  components: {
-    Logo
-  }
-}
-
-</script>
 
 <style lang="scss">
   .source-animation {

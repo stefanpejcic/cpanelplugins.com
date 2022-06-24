@@ -111,19 +111,13 @@ query {
 
 
 <script>
-import GraphQlLogo from '~/assets/images/graphql-logo.svg'
-import VueLogo from '~/assets/images/vue-logo.svg'
 import WebpackLogo from '~/assets/images/webpack-logo.svg'
-import GridsomeLogo from '~/assets/images/gridsome-small-white.svg'
 import Bullet from '~/assets/images/bullet.svg'
 
 export default {
   components: {
     Bullet,
-    VueLogo,
-    GridsomeLogo,
     WebpackLogo,
-    GraphQlLogo
   }
 }
 </script>

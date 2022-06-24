@@ -48,7 +48,6 @@ query {
 <script>
 import LinesOut from '~/assets/images/home-lines-out.svg'
 import LinesIn from '~/assets/images/home-lines-in.svg'
-import Logo from '~/assets/images/home-logo.svg'
 
 const words = ['insanely fast', 'Jamstack', 'static & secure', 'future-ready']
 
