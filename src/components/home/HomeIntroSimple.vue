@@ -11,7 +11,7 @@
         </p-->
 
         <p class="intro__links">
-          <g-link  to="/docs/" class="button primary button--large">
+          <g-link  to="/plugins/" class="button primary button--large">
             <span>Browse plugins</span>
           </g-link>
         </p>
