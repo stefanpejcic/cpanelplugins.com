@@ -9,6 +9,8 @@
       <span class="main-nav__label">Services</span>
     </g-link>
 	
+      <nav class="header-actions flex">
+	
 	<div class="has-dropdown">
           <a
             aria-label="GitHub"
@@ -31,7 +33,6 @@
               Open Ticket
             </a>
           </div>
-	
 
     <g-link to="/blog/">
       <span class="main-nav__label">Blog</span>
