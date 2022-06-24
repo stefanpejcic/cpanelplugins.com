@@ -5,12 +5,8 @@
       <span class="main-nav__label">Plugins</span>
     </g-link>
 
-    <g-link to="/scripts/">
-      <span class="main-nav__label">Services</span>
-    </g-link>
-	
-      <nav class="header-actions flex">
-	
+    <a href="/scripts/">
+      <span class="main-nav__label">Services</span></a>
 	<div class="has-dropdown">
           <a
             aria-label="GitHub"

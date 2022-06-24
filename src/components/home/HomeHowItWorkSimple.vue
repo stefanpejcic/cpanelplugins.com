@@ -8,7 +8,7 @@
           <li>📜 <g-link to="/plugins/login-log-cpanel-plugin">Login Log cPanel plugin</g-link></li>
           <li>🔴 <g-link to="/plugins/malware-scanner-cpanel-plugin/">Malware Scanner</g-link></li>
           <li>🎩 <g-link to="/plugins/rbl-check-cpanel-plugin/">RBL check cPanel plugin</g-link></li>
-		  <li>🗃️ <g-link to="/plugins/inodes-usage-summary-cpanel-plugin/">Inodes Usage Summary cPanel Plugin</g-link></li>
+		  <li>🗃️ <g-link to="/plugins/inodes-usage-summary-cpanel-plugin/">Inodes Usage Summary</g-link></li>
 		  <li>🦠 <g-link to="/plugins/simple-virus-scanner-cpanel-plugin/">Simple Virus Scanner</g-link></li>
 		  <li>📧 <g-link to="/plugins/imapsync-cpanel-plugin/">IMAPSync cPanel Plugin</g-link></li>
         </ul>
