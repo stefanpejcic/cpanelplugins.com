@@ -8,13 +8,7 @@
 </template>
 
 <script>
-import Logo from '~/assets/images/gridsome-logo.svg'
-import LogoSmall from '~/assets/images/gridsome-logo-small.svg'
 export default {
-  components: {
-    Logo,
-    LogoSmall
-  },
   methods: {
     rightClick() {
       this.$router.push({ path: '/logo' })
