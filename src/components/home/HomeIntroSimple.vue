@@ -18,7 +18,7 @@
 
         <p class="intro__info">
           <span>or </span>
-          <a href="/free-quote/" target="_blank" rel="noopener noreferrer">
+          <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
             <span>Get Free Project Quote</span>
           </a>
         </p>
