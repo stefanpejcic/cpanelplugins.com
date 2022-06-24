@@ -66,7 +66,6 @@
 
 <script>
 import Bullet from '~/assets/images/bullet.svg'
-import VueLogo from '~/assets/images/vue-logo.svg'
 
 export default {
   components: {
