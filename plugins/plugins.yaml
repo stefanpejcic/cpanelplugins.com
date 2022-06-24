@@ -5,7 +5,7 @@
   preview: https://gridsome-plugin-blnk.netlify.app
   author: stefanpejcic
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
-   platforms: cpnl 
+   platforms: strapi 
 
 - title: RBL check cPanel plugin
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
@@ -14,7 +14,7 @@
   preview: https://twblog.terabytetiger.com
   author: stefanpejcic
   tags: blog
-  platforms: cpnl
+  platforms: strapi
 
 - title: Malware Scanner cPanel plugin
   description: detailed info: description, MD5 hash, size, permissions, created/modified time, etc.
@@ -23,7 +23,7 @@
   preview: https://gridsome-geek-blog.netlify.app
   author: stefanpejcic
   tags: blog
-  platforms: cpnl
+  platforms: strapi
 
 
 - title: Inodes Usage Summary cPanel Plugin
@@ -33,7 +33,7 @@
   preview: https://gridsome-plugin-scroll.deploy-now.site/
   author: stefanpejcic
   tags: gridsome, plugin, windicss, portfolio
-  platforms: cpnl
+  platforms: strapi
 
 - title: 📜 Login Log cPanel plugin
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB
@@ -42,4 +42,4 @@
   preview: https://cpanelplugins.com/log
   author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: cpnl
+  platforms: strapi
