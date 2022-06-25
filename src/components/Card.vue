@@ -57,6 +57,7 @@ export default {
     }
 
     &__image {
+	  max-height: 165px;
       border-radius: 4px 4px 0 0;
       overflow: hidden;
       border-bottom: 1px solid var(--border-color);
