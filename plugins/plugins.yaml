@@ -43,6 +43,14 @@
   tags: blog
   platforms: strapi
 
+- title: Fix Permissions cpanel Plugin
+  description: Fix permissions for each domain under a cpanel account
+  screenshot: ./screenshots/fixperms.png
+  repo: stefanpejcic/fixPermissions-cpanel-plugin
+  preview: https://cpanelplugins.com/fix
+  author: stefanpejcic
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
 
 - title: Inodes Usage Summary cpanel Plugin
   description: Display Inodes and Disk usage summary for a cPanel account
