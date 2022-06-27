@@ -12,7 +12,6 @@
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/stefanpejcic/">Stefan Pejcic</a></li>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/fevangelou/">Fotis Evangelou</a></li>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/felipegabriel/">Felipe Gabriel</a></li>
-		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/ismaelyws/">Hans Desjarlais</a></li>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/troglodyne/">Troglodyne LLC</a></li>
 </ul>
           <hr />

@@ -38,14 +38,16 @@
         </template>
       </Card>
 
-      <Card title="Expert Support">
-        <h4>cPanel SysAdmin services</h4>
+      <Card title="Plugin Developers">
+        <h4>Featured cPanel Plugin Developers</h4>
         <p>
         </p>
 
         <ul class="bullet-list mb">
           <li><Bullet /><g-link to="/contributor/taidos/">Carlos Faustino</g-link></li>
-          <li><Bullet /><g-link to="/contributor/stefanpejcic/">Stefan Pejčić</g-link></li>
+		  <li><Bullet /><g-link to="/contributor/ismaelyws/">Hans Desjarlais</g-link></li>
+		  <li><Bullet /><g-link to="/contributor/fevangelou/">Fotis Evangelou</g-link></li>
+		  <li><Bullet /><g-link to="/contributor/felipegabriel/">Felipe Gabriel</g-link></li>
         </ul>
       </Card>
 
