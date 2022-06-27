@@ -46,6 +46,12 @@
   avatar: "./images/steadramon.png"
   twitter: "@nable"
 
+- id: petermw
+  name: Peter Ivanov
+  bio: Back-End Developer @ Microweber
+  avatar: "./images/petermw.png"
+  twitter: "@microweber"
+
 - id: ndchost
   name: NETWORK DATA CENTER HOST, INC.
   bio: Web Hosting & Cloud Services

@@ -116,6 +116,15 @@
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
 
+- title: Microweber Website Builder
+  description: Microweber is modern drag and drop website builder and CMS of new generation.
+  screenshot: ./screenshots/microweber.png
+  repo: microweber-dev/cpanel-plugin
+  preview: https://microweber.org/cpanel-plugin
+  author: petermw
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
 - title: Spam Experts
   description: WHM/cPanel add-on for providing integration with SpamExperts services.
   screenshot: ./screenshots/spamexperts.png
