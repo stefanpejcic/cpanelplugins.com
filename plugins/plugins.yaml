@@ -28,7 +28,7 @@
 - title: Cpanel DNS Check Account WHM Plugin
   description: Check if all domains are pointed to the server.
   screenshot: ./screenshots/dns-checker.png
-  repo: felipegabriel/cPanel-DNS-Check-Account-WHM-Plugin
+  repo: stefanpejcic/cPanel-DNS-Check-Account-WHM-Plugin
   preview: https://brasilcloud.com.br/
   author: felipegabriel
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
