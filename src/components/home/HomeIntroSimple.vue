@@ -18,8 +18,8 @@
 
         <p class="intro__info">
           <span>or </span>
-          <a href="/free-quote" target="_blank" rel="noopener noreferrer">
-            <span>Get Free Project Quote</span>
+          <a href="/plugins/" target="_blank" rel="noopener noreferrer">
+            <span>Browse cPanel Plugin Developers</span>
           </a>
         </p>
     </div>
