@@ -80,6 +80,15 @@
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi
 
+- title: Themely WordPress Installer
+  description: Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes.
+  screenshot: ./screenshots/themely.png
+  repo: ismaelyws/themely
+  preview: https://plugin.themely.com/
+  author: ismaelyws
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
 - title: Inodes Usage Summary cpanel Plugin
   description: Display Inodes and Disk usage summary for a cPanel account
   screenshot: ./screenshots/inodes-usage-summary.png
