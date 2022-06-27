@@ -56,7 +56,7 @@
 - title: Engintron for cPanel/WHM
   description: Engintron for cPanel/WHM is the easiest way to integrate Nginx on your cPanel/WHM server.
   screenshot: ./screenshots/engintron.png
-  repo: engintron/engintron
+  repo: stefanpejcic/engintron
   preview: https://engintron.com/docs
   author: fevangelou
   tags: blog
