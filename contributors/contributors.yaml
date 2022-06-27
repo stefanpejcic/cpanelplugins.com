@@ -57,3 +57,9 @@
   bio: Web Hosting & Cloud Services
   avatar: "./images/ndchost.png"
   twitter: "@ndchost"
+  
+- id: autometion
+  name: AUTOM8N
+  bio: WHM/cPanel plugin providing a DNS load-balanced
+  avatar: "./images/autometion.png"
+  twitter: ""  

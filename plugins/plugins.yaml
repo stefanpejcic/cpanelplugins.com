@@ -97,6 +97,15 @@
   author: stefanpejcic
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
+  
+- title: Autom8n
+  description: High Available, DNS Load Balanced webstack on cPanel.
+  screenshot: ./screenshots/autometion.png
+  repo: AnoopAlias/AUTOM8N
+  preview: https://autom8n.com/
+  author: autometion
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi  
 
 - title: WatchMySQL
   description: Monitor your MySQL server connection usage per cpanel user.
