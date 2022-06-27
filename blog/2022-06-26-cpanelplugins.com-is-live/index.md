@@ -19,12 +19,12 @@ The website creates a plugin page for each github repo added inside plugins.yaml
 To get your plugin listed, the following is required:
 
 - Your plugin must be publicly available on Github.
-- An installation script titled "install plugin.sh" must be included in the main branch.
+- An installation script titled "installer.sh" must be included in the main branch.
 
 
 To add your plugin:
 
-1. Fork this repo on Github
+1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
 

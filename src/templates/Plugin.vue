@@ -38,7 +38,7 @@
               <div class="mb">
                 <code class="plugin__command flex">
                   <span ref="command">
-				  wget -O - https://raw.githubusercontent.com/{{ $page.plugin.repo }}/main/install_plugin.sh | bash
+				  wget -O - https://raw.githubusercontent.com/{{ $page.plugin.repo }}/main/installer.sh | bash
 				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />

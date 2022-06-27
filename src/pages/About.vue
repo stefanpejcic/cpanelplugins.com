@@ -9,7 +9,7 @@
 <p>To get your plugin listed, the following is required:</p>
 <ul>
 <li>Your plugin must be publicly available on Github.</li>
-<li>installation script titled "install plugin.sh" must be included in the main branch.</li>
+<li>installation script titled "installer.sh" must be included in the main branch.</li>
 </ul>
 </br>
 <p>To add your plugin:</p>
