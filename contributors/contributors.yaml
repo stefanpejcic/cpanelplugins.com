@@ -45,3 +45,9 @@
   bio: 
   avatar: "./images/steadramon.png"
   twitter: "@nable"
+
+- id: ndchost
+  name: NETWORK DATA CENTER HOST, INC.
+  bio: Web Hosting & Cloud Services
+  avatar: "./images/ndchost.png"
+  twitter: "@ndchost"

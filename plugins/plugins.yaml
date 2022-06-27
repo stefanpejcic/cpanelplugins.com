@@ -98,6 +98,15 @@
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
 
+- title: WatchMySQL
+  description: Monitor your MySQL server connection usage per cpanel user.
+  screenshot: ./screenshots/watchmysql.png
+  repo: konstantinosbotonakis/watchmysql
+  preview: https://www.ndchost.com/cpanel-whm/addons/watchmysql/
+  author: ndchost
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
 - title: Cpanel Linux Malware Detect
   description: Add Linux Malware Detect (LMD) support to WHM for root users.
   screenshot: ./screenshots/maldet.png
