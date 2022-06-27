@@ -36,7 +36,7 @@
               To install this cPanel plugin you need to have <strong><g-link to="https://support.cpanel.net/hc/en-us/articles/360051754554-How-do-I-log-in-to-my-cPanel-account-as-root-">root</g-link></strong> account
               </p>
               <div class="mb">
-                <code class="plugin__command flex">
+                <code class="plugin__command flex" style="overflow: hidden;">
                   <span ref="command">
 				  wget -O - https://raw.githubusercontent.com/{{ $page.plugin.repo }}/main/installer.sh | bash
 				  </span>
@@ -48,7 +48,7 @@
               </div>
               <hr />
               <div class="deploy-buttons flex">
-                <a class="button button--small" style="width: 100%; text-align: center; display:block;" :href="plugin-installation">
+                <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="/plugin-installation">
                   <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
                 <!--a class="button button--small" :href="netlifyDeployUrl">
