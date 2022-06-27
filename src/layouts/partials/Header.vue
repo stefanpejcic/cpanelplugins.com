@@ -9,9 +9,9 @@
 
       <nav class="header-actions flex">
         
-		<g-link  to="/docs/" class="button primary button hide-for-small"><span>Support</span></g-link>
+		<g-link  to="/submit/" class="button primary button hide-for-small"><span>Submit a plugin</span></g-link>
         <ToggleTheme />
-		<a href="/docs" rel="noopener noreferrer" target="_blank" title="CpanelPlugins Docs"><span style="margin-left:5px;" class="show-for-small">Support</span></a>
+		<a href="/submit/" rel="noopener noreferrer" target="_blank" title="Submit a plugin to CpanelPlugins"><span style="margin-left:5px;" class="show-for-small">Submit a plugin</span></a>
 		<!--div class="has-dropdown">
           <a
             aria-label="GitHub"
