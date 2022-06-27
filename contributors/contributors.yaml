@@ -10,3 +10,8 @@
   avatar: "./images/taidos.jpg"
   twitter: "@taid0s"
 
+- id: troglodyne
+  name: Troglodyne LLC
+  bio: "Administrador de Sistemas Informaticos"
+  avatar: "./images/troglodyne.jpg"
+  twitter: "@troglodyne"

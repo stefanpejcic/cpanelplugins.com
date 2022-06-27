@@ -43,6 +43,15 @@
   tags: blog
   platforms: strapi
 
+- title: iContact Cpanel Plugins
+  description: Extra "Contact Manager" Providers for cPanel and WHM.
+  screenshot: ./screenshots/icontacts.png
+  repo: Troglodyne-Internet-Widgets/iContact-cPanel-Plugins
+  preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
+  author: troglodyne
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
+
 - title: Fix Permissions cpanel Plugin
   description: Fix permissions for each domain under a cpanel account
   screenshot: ./screenshots/fixperms.png
