@@ -2,7 +2,7 @@
 title: CpanelPlugins.com Is live 🎉🎉🎉
 slug: cpanel-plugins-is-live
 author: [stefanpejcic]
-date: 2021-06-26
+date: 2021-06-20
 excerpt: "CpanelPlugins.com website is published!"
 ---
 
@@ -14,16 +14,17 @@ I created this website as an alternative to Cpanel AppCatalog because it hasn't 
 
 The website creates a plugin page for each github repo added inside plugins.yaml file
 
+Hopefully cpanelplugins.com will soon also include other peoples plugins as well, and not just my own. 😄
+
+### Fellow cPanel plugin developer
+
+UPDATE (27.06.2022): [Carlos Faustino](https://carlos-faustino.com/) is the second cPanel plugin developer featured on CpanelPlugins.com
+I want to personally thank him for his support of this project.
+
 ### Have a plugin that you would like to add to cpanelplugins.com ?
-
-To get your plugin listed, your plugin must be publicly available on Github.
-
 
 To add your plugin:
 
 1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
 2. Add your plugin information to the plugins/plugins.yaml file
 3. Make a pull request with the following title: ADD PLUGIN
-
-
-Hopefully cpanelplugins.com will soon also include other peoples plugins as well, and not just my own. 😄
