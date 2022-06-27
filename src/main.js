@@ -3,7 +3,6 @@ import '~/assets/style/index.scss'
 
 // Add global components
 import Layout from '~/layouts/Default.vue'
-import DocsLayout from '~/layouts/Docs.vue'
 import Section from '~/components/Section.vue'
 import Feature from '~/components/Feature.vue'
 import Card from '~/components/Card'
