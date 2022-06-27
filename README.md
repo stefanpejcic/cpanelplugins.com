@@ -24,7 +24,8 @@ To add your plugin:
 1. Fork this repo [stefanpejcic/cpanelplugins.com](https://github.com/stefanpejcic/cpanelplugins.com)
 2. Create a directory with the date and title of the post (e.g. 2022-06-26-cpanelplugins.com-is-live)
 3. Create index.md file inside it with the actual blog post
-4. Make a pull request with the following title: ADD POST
+4. Add your information inside contributors/contributors.yaml file and profile picture to contributors/images
+5. Make a pull request with the following title: ADD POST
 
 
 NOTE: The blog post (index.md) file must contain the following information at the top:
