@@ -7,7 +7,10 @@
 <p>Here is a list of freelance cPanel plugin developers that have already published free cPanel plugins:</p>
           <ul>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/taidos/">Carlos Faustino</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/ismaelyws/">Hans Desjarlais</a></li>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/stefanpejcic/">Stefan Pejcic</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/fevangelou/">Fotis Evangelou</a></li>
+		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/felipegabriel/">Felipe Gabriel</a></li>
 		 </ul>
     </Section>
   </Layout>
