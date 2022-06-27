@@ -25,6 +25,16 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Cpanel DNS Check Account WHM Plugin
+  description: Check if all domains are pointed to the server.
+  screenshot: ./screenshots/dns-checker.png
+  repo: felipegabriel/cPanel-DNS-Check-Account-WHM-Plugin
+  preview: https://brasilcloud.com.br/
+  author: felipegabriel
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
+
 - title: RBL Check cpanel plugin
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
   screenshot: ./screenshots/rbl-checker.png
