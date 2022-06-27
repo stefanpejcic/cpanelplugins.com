@@ -21,7 +21,6 @@ const typography = new Typography({
 
 export default function (Vue, { head, router, isServer }) {
   Vue.component('Layout', Layout)
-  Vue.component('DocsLayout', DocsLayout)
   Vue.component('Section', Section)
   Vue.component('Feature', Feature)
   Vue.component('Card', Card)
