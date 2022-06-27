@@ -39,3 +39,9 @@
   bio: N-able's email security team
   avatar: "./images/nable.jpg"
   twitter: "@nable"
+  
+- id: steadramon
+  name: Sea Animal Digimon
+  bio: 
+  avatar: "./images/steadramon.png"
+  twitter: "@nable"

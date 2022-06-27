@@ -98,6 +98,15 @@
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
 
+- title: Cpanel Linux Malware Detect
+  description: Add Linux Malware Detect (LMD) support to WHM for root users.
+  screenshot: ./screenshots/maldet.png
+  repo: steadramon/cpanel_addon-maldet
+  preview: https://github.com/steadramon/cpanel_addon-maldet
+  author: steadramon
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+
 - title: Spam Experts
   description: WHM/cPanel add-on for providing integration with SpamExperts services.
   screenshot: ./screenshots/spamexperts.png
