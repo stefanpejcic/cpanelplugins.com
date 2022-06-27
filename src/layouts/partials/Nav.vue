@@ -5,8 +5,8 @@
       <span class="main-nav__label">Plugins</span>
     </g-link>
 
-    <g-link to="/services/">
-      <span class="main-nav__label">Services</span>
+    <g-link to="/developers/">
+      <span class="main-nav__label">Developers</span>
 	</g-link>
 	
     <g-link to="/blog/">

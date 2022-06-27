@@ -4,7 +4,7 @@
 
       <div class="sidebar">
 
-          <h3 class="menu-item" >Authors</h3>
+          <h3 class="menu-item" >Developers</h3>
 
           <ul>
 		  <li style="margin-bottom: 0px;"><a class="menu-item" href="/contributor/taidos/">Carlos Faustino</a></li>

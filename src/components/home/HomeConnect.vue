@@ -6,7 +6,7 @@
         <p class="lead">
           We offer a broad range of services dedicated to hosting companies using cPanel and WHM. We will customize the software for you to automate your daily tasks and help you achieve all your goals.
         </p>
-        <p><g-link to="/free-quote/">Get Free Project Quote</g-link></p>
+        <p><g-link to="/plugins/">Hire cPanel Plugin Developers</g-link></p>
       </div>
        <div>
         <Connect />

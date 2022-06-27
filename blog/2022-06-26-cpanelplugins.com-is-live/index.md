@@ -16,10 +16,7 @@ The website creates a plugin page for each github repo added inside plugins.yaml
 
 ### Have a plugin that you would like to add to cpanelplugins.com ?
 
-To get your plugin listed, the following is required:
-
-- Your plugin must be publicly available on Github.
-- An installation script titled "installer.sh" must be included in the main branch.
+To get your plugin listed, your plugin must be publicly available on Github.
 
 
 To add your plugin:

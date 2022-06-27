@@ -18,8 +18,8 @@
 
         <p class="intro__info">
           <span>or </span>
-          <a href="/plugins/" target="_blank" rel="noopener noreferrer">
-            <span>Browse cPanel Plugin Developers</span>
+          <a href="/developers/" rel="noopener noreferrer">
+            <span>Hire cPanel Plugin Developers</span>
           </a>
         </p>
     </div>

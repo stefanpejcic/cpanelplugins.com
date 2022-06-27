@@ -6,11 +6,7 @@
       <p>CpanelPlugins is a github-hosted collection of free cPanel plugins.</p>
     </Section>
 	<Section container="sm">
-<p>To get your plugin listed, the following is required:</p>
-<ul>
-<li>Your plugin must be publicly available on Github.</li>
-<li>installation script titled "installer.sh" must be included in the main branch.</li>
-</ul>
+<p>To get your plugin listed, your plugin must be publicly available on Github.</p>
 </br>
 <p>To add your plugin:</p>
 <p>1. Fork <a href="https://github.com/stefanpejcic/cpanelplugins.com" target="_blank">https://github.com/stefanpejcic/cpanelplugins.com</a></br>

@@ -44,11 +44,8 @@
         </p>
 
         <ul class="bullet-list mb">
-          <li><Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html">cPanel plugin installation</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">Custom template integration</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">cPanel to cPanel migration</li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Email migration to cPanel</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Server Monitoring & Maintenance</g-link></li>
+          <li><Bullet /><g-link to="/contributor/taidos/">Carlos Faustino</g-link></li>
+          <li><Bullet /><g-link to="/contributor/stefanpejcic/">Stefan Pejčić</g-link></li>
         </ul>
       </Card>
 
