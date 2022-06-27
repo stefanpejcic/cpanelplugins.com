@@ -4,7 +4,7 @@
 
 CpanelPlugins is a github-hosted open-source collection of free cPanel plugins.
 
-# How to add a plugin
+## How to add a plugin
 
 To get your plugin listed, the following is required:
 
