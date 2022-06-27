@@ -43,6 +43,15 @@
   tags: blog
   platforms: strapi
 
+- title: Engintron for cPanel/WHM
+  description: Engintron for cPanel/WHM is the easiest way to integrate Nginx on your cPanel/WHM server.
+  screenshot: ./screenshots/engintron.png
+  repo: engintron/engintron
+  preview: https://engintron.com/docs
+  author: fevangelou
+  tags: blog
+  platforms: strapi
+
 - title: iContact Cpanel Plugins
   description: Extra "Contact Manager" Providers for cPanel and WHM.
   screenshot: ./screenshots/icontacts.png

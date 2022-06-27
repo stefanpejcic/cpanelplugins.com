@@ -15,3 +15,9 @@
   bio: "Administrador de Sistemas Informaticos"
   avatar: "./images/troglodyne.jpg"
   twitter: "@troglodyne"
+
+- id: fevangelou
+  name: Fotis Evangelou
+  bio: Open source software developer & sysadmin
+  avatar: "./images/fevangelou.jpg"
+  twitter: "@fevangelou"
