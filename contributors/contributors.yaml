@@ -57,7 +57,13 @@
   bio: Web Hosting & Cloud Services
   avatar: "./images/ndchost.png"
   twitter: "@ndchost"
-  
+ 
+- id: timelord
+  name: Marcel Pol
+  bio: Web Hosting & Cloud Services
+  avatar: "./images/timelord.jpeg"
+  twitter: "@MPolleke"
+ 
 - id: autometion
   name: AUTOM8N
   bio: WHM/cPanel plugin providing a DNS load-balanced

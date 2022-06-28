@@ -25,6 +25,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Installer for WordPress
+  description: Install WordPress in a few clicks.
+  screenshot: ./screenshots/wpinstall.png
+  repo: MPolleke/cPanel-Wordpress
+  preview: https://timelord.nl/cpanel-plugin-installer-for-wordpress?lang=en
+  author: timelord
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: Cpanel DNS Check Account WHM Plugin
   description: Check if all domains are pointed to the server.
   screenshot: ./screenshots/dns-checker.png
