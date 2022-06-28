@@ -76,6 +76,11 @@
   avatar: "./images/rsohosting.png"
   twitter: "rsobg"  
 
+- id: arvancloud
+  name: ArvanCloud
+  bio: Integrated Cloud Solutions for online businesses: #CDN, DNS, Cloud Security, VoD Platform, Live Streaming, Cloud Storage
+  avatar: "./images/arvancloud.jpg"
+  twitter: "ArvanCloud"  
 
 - id: lucyfer622
   name: Jarnick Puaw

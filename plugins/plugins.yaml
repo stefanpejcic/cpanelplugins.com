@@ -62,7 +62,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
-
+- title: ArvanCloud
+  description: ArvanCloud cPanel Plugin to add and config domain in CDN panel directly from cPanel.
+  screenshot: ./screenshots/arvancloud.png
+  repo: arvancloud/ar-cpnlplugin
+  preview: https://www.arvancloud.com/docs/api/cdn/4.0
+  author: arvancloud
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+  
 - title: RBL Check cpanel plugin
   description: Simple cPanel plugin that allows users to check any ip in over 100 RBL.
   screenshot: ./screenshots/rbl-checker.png
