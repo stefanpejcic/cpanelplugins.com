@@ -16,6 +16,15 @@
   platforms: contentful
   featured: true
 
+- title: TODO
+  description: Sample Code for cPanel Conf 2016
+  screenshot: ./screenshots/todo.png
+  repo: squareplanetdesign/cpanel_todo_plugin
+  preview: https://documentation.cpanel.net/display/DD/Guide+to+cPanel+Plugins
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: 🔴 Simple Virus Scanner cpanel plugin
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
   screenshot: ./screenshots/svs.png
