@@ -115,7 +115,16 @@
   author: stefanpejcic
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
-  
+ 
+- title: MarketGoo plugin for Cpanel
+  description: MarketGoo is the most complete website marketing app offered to SMBs.
+  screenshot: ./screenshots/marketgoo.png
+  repo: marketgoo/cpanel.plugin
+  preview: https://www.marketgoo.com/
+  author: marketgoo
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+ 
 - title: Autom8n
   description: High Available, DNS Load Balanced webstack on cPanel.
   screenshot: ./screenshots/autometion.png

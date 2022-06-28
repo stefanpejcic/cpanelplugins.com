@@ -4,6 +4,12 @@
   avatar: "./images/stefanpejcic.jpg"
   twitter: "@stefanpejcic"
 
+- id: marketgoo
+  name: marketgoo
+  bio: Resell our SEO tools to help your customers succeed online.
+  avatar: "./images/marketgoo.png"
+  twitter: "@mktgoo"
+
 - id: taidos
   name: Carlos Faustino
   bio: "Administrador de Sistemas Informaticos"
