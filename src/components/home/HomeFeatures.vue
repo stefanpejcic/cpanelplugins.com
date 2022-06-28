@@ -27,9 +27,8 @@
 
 
       <Feature>
-        <h3>Clean code</h3>
-        <p>We follow both best PHP coding practises and cPanel developer guidelines.
-        </p>
+        <h3>Tested</h3>
+        <p>We personally test each cPanel plugin that is included on this site.</p>
       </Feature>
 
       <Feature>

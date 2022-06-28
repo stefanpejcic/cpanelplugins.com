@@ -98,15 +98,6 @@
   tags: blog
   platforms: strapi
 
-- title: iContact Cpanel Plugins
-  description: Extra "Contact Manager" Providers for cPanel and WHM.
-  screenshot: ./screenshots/icontacts.png
-  repo: Troglodyne-Internet-Widgets/iContact-cPanel-Plugins
-  preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
-  author: troglodyne
-  tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
-
 - title: Fix Permissions cpanel Plugin
   description: Fix permissions for each domain under a cpanel account
   screenshot: ./screenshots/fixperms.png
@@ -114,15 +105,6 @@
   preview: https://cpanelplugins.com/fix
   author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
-  platforms: strapi
-
-- title: Themely WordPress Installer
-  description: Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes.
-  screenshot: ./screenshots/themely.png
-  repo: ismaelyws/themely
-  preview: https://plugin.themely.com/
-  author: ismaelyws
-  tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
 
 - title: Inodes Usage Summary cpanel Plugin
@@ -196,6 +178,24 @@
   author: nimbusec
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
+ 
+- title: iContact Cpanel Plugins
+  description: Extra "Contact Manager" Providers for cPanel and WHM.
+  screenshot: ./screenshots/icontacts.png
+  repo: Troglodyne-Internet-Widgets/iContact-cPanel-Plugins
+  preview: https://www.youtube.com/watch?v=vnCFlu2KzhI
+  author: troglodyne
+  tags: blog, gridsome, tailwind, strapi, typescript
+  platforms: strapi
+ 
+- title: Themely WordPress Installer
+  description: Themely is a cPanel/WHM addon which combines a one-click WordPress auto-installer with a directory of free WordPress themes.
+  screenshot: ./screenshots/themely.png
+  repo: ismaelyws/themely
+  preview: https://plugin.themely.com/
+  author: ismaelyws
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi  
 
 - title: 📜 Login Log cpanel plugin
   description: Quickly view cPanel logins and check IPs in the AbuseIPDB

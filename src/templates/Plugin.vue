@@ -38,7 +38,7 @@
               <div class="mb">
                 <code class="plugin__command flex" style="overflow: hidden;">
                   <span ref="command">
-				  wget -O - https://raw.githubusercontent.com/{{ $page.plugin.repo }}/archive/refs/heads/master.zip
+				  wget -O - https://github.com{{ $page.plugin.repo }}/archive/refs/heads/main.zip
 				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />

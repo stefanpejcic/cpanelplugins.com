@@ -4,7 +4,7 @@
       Easy to customize and extend!
     </h2>
     <p class="lead text-center container-md">
-    	All our code is open-source and can be easily customized
+    	All plugins on this site are open-source and can be easily customized
     </p>
 
 		<div class="home-examples mb-x2">
