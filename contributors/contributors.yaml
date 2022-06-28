@@ -78,7 +78,7 @@
 
 - id: arvancloud
   name: ArvanCloud
-  bio: Integrated Cloud Solutions for online businesses: #CDN, DNS, Cloud Security, VoD Platform, Live Streaming, Cloud Storage
+  bio: Integrated Cloud Solutions for online businesses
   avatar: "./images/arvancloud.jpg"
   twitter: "ArvanCloud"  
 
