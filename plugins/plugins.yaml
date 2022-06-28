@@ -280,7 +280,7 @@
 - title: LSMCD Secure User Data
   description: User interface for those CloudLinux/cPanel users using LSMCD configured with SASL and User-Level security.
   screenshot: ./screenshots/lsmcd.png
-  repo: rperper/lsmcd_cpanel_plugin
+  repo: stefanpejcic/lsmcd_cpanel_plugin
   preview: https://www.litespeedtech.com/support/wiki/doku.php/litespeed_wiki:lsmcd:user_cpanel
   author: litespeedtech
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
