@@ -73,7 +73,7 @@
 - title: Make Files Immutable
   description: Allows normal cpanel users to make files immutable.
   screenshot: ./screenshots/chattr.png
-  repo: djfordz/cpanel_chattr_plugin
+  repo: stefanpejcic/cpanel_chattr_plugin
   preview: https://www.djfordz.com/
   author: djfordz
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
@@ -267,3 +267,12 @@
   author: lucyfer622
   tags: gridsome, plugin, windicss, portfolio
   platforms: strapi
+  
+- title: RVsitebuilder
+  description: RVsitebuilder is a professional web publishing platform.
+  screenshot: ./screenshots/rvsitebuilder.png
+  repo: Nattawut9973/cpanel-plugins
+  preview: https://rvsitebuilder.com/demo/
+  author: RVGlobalsoft
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi  

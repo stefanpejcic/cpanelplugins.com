@@ -106,6 +106,12 @@
   avatar: "./images/cpanelinc.png"
   twitter: "cpanel" 
 
+- id: RVGlobalsoft
+  name: RVGlobalsoft
+  bio: Be the first to try RVsitebuilder 7 demo for FREE at https://rvsitebuilder.com/demo/
+  avatar: "./images/RVGlobalsoft.jpg"
+  twitter: "RVGlobalsoft_"
+
 - id: djfordz
   name: David Ford
   bio: Software Engineer, Linus Torvalds admirer, Arch Linux lover, science geek, political pundit. Snowden supporter.
