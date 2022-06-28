@@ -69,3 +69,9 @@
   bio: PHP/HTML Developer
   avatar: "./images/lucyfer622.png"
   twitter: ""  
+  
+- id: nimbusec
+  name: nimbusec
+  bio: nimbusec website security monitoring is an advanced solution to identify malicious code and manipulated websites (defacement, malware, blacklists).
+  avatar: "./images/nimbusec.jpg"
+  twitter: "nimbusec"  
