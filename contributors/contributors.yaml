@@ -4,6 +4,12 @@
   avatar: "./images/stefanpejcic.jpg"
   twitter: "@stefanpejcic"
 
+- id: litespeedtech
+  name: LiteSpeed Tech
+  bio: ⚡ Internet. Accelerated. ⚡
+  avatar: "./images/litespeed.jpg"
+  twitter: "@litespeedtech"
+
 - id: marketgoo
   name: marketgoo
   bio: Resell our SEO tools to help your customers succeed online.
