@@ -160,3 +160,13 @@
   author: stefanpejcic
   tags: blog, gridsome, tailwind, strapi, typescript
   platforms: strapi
+  
+- title: WHM Seller
+  description: Create and manage Alpha/Master/Reseller accounts.
+  screenshot: ./screenshots/whmseller.png
+  repo: lucyfer622/whmseller
+  preview: https://carlos-faustino.com/
+  author: lucyfer622
+  tags: gridsome, plugin, windicss, portfolio
+  platforms: strapi
+  
