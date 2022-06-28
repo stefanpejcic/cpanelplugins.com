@@ -34,6 +34,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Varnish Cache
+  description: Varnish Cache for Cpanel
+  screenshot: ./screenshots/varnishcache.png
+  repo: djfordz/cpanel_varnish_plugin
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: 🔴 Simple Virus Scanner cpanel plugin
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
   screenshot: ./screenshots/svs.png
@@ -61,6 +70,14 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Make Files Immutable
+  description: Allows normal cpanel users to make files immutable.
+  screenshot: ./screenshots/chattr.png
+  repo: djfordz/cpanel_chattr_plugin
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
 
 - title: rsoRedis
   description: A cPanel Plugin for controlling Redis instances by users.
