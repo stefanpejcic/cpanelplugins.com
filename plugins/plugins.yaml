@@ -98,6 +98,15 @@
   tags: blog
   platforms: strapi
 
+- title: IP Whitelister
+  description: cPanel plugin for cPanel users to whitelist their own IP's
+  screenshot: ./screenshots/ipwhitelist.png
+  repo: DowayneB/cPanel-IP-whitelister
+  preview: 
+  author: cpanelinc
+  tags: blog
+  platforms: strapi
+
 - title: Engintron for cPanel/WHM
   description: Engintron for cPanel/WHM is the easiest way to integrate Nginx on your cPanel/WHM server.
   screenshot: ./screenshots/engintron.png
