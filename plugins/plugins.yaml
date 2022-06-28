@@ -25,6 +25,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: SSH Whitelist
+  description: Cpanel Plugin allows users to add IP to hosts.allow and locks ssh down
+  screenshot: ./screenshots/sshwhitelist.png
+  repo: djfordz/cpanel_ssh_whitelist
+  preview: https://www.djfordz.com/
+  author: djfordz
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: 🔴 Simple Virus Scanner cpanel plugin
   description: Simple virus scanner that scans files for php functions that are often used in malwares and gives them a score.
   screenshot: ./screenshots/svs.png

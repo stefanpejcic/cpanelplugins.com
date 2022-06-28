@@ -38,7 +38,7 @@
               <div class="mb">
                 <code class="plugin__command flex" style="overflow: hidden;">
                   <span ref="command">
-				  wget -O - https://github.com{{ $page.plugin.repo }}/archive/refs/heads/main.zip
+				  wget -O - https://github.com/{{ $page.plugin.repo }}/archive/refs/heads/main.zip
 				  </span>
                   <button class="button button--xsmall" @click="copyCommand()">
                     <ClipboardIcon title="Copy to clipboard" width="16" height="16" />
@@ -47,14 +47,11 @@
                 </code>
               </div>
               <hr />
-              <div class="deploy-buttons flex">
+              <!--div class="deploy-buttons flex">
                 <a class="button button--small" style="width: 100%; text-align: center; display:block;" href="/plugin-installation">
                   <cPanelLogo alt="cPanel plugin installation service" height="16" /> cPanel plugin installation service - $9.95
                 </a>
-                <!--a class="button button--small" :href="netlifyDeployUrl">
-                  Template Integration $19.95
-                </a-->
-              </div>
+              </div-->
             </div>
           </Popover>
         </div>

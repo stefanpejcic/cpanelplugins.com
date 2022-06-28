@@ -104,4 +104,10 @@
   name: cPanel, L.L.C.
   bio: cPanel provides the most reliable and intuitive server and site management platform.
   avatar: "./images/cpanelinc.png"
-  twitter: "cpanel"    
+  twitter: "cpanel" 
+
+- id: djfordz
+  name: David Ford
+  bio: Software Engineer, Linus Torvalds admirer, Arch Linux lover, science geek, political pundit. Snowden supporter.
+  avatar: "./images/djfordz.jpg"
+  twitter: "djfordz"      
