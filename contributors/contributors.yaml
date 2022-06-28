@@ -81,3 +81,9 @@
   bio: nimbusec website security monitoring is an advanced solution to identify malicious code and manipulated websites (defacement, malware, blacklists).
   avatar: "./images/nimbusec.jpg"
   twitter: "nimbusec"  
+  
+- id: cpanelinc
+  name: cPanel, L.L.C.
+  bio: cPanel provides the most reliable and intuitive server and site management platform.
+  avatar: "./images/cpanelinc.png"
+  twitter: "cpanel"    

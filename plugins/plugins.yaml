@@ -25,6 +25,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Migrate Email
+  description: A cPanel Plugin for migrating email from an IMAP service.
+  screenshot: ./screenshots/imaps.png
+  repo: CpanelInc/migrate-email
+  preview: https://github.com/CpanelInc/migrate-email
+  author: cpanelinc
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: Installer for WordPress
   description: Install WordPress in a few clicks.
   screenshot: ./screenshots/wpinstall.png
