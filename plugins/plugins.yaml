@@ -43,6 +43,16 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+
+- title: rsoRedis
+  description: A cPanel Plugin for controlling Redis instances by users.
+  screenshot: ./screenshots/redisplugin.png
+  repo: RSOHosting/cpanel_redis
+  preview: https://www.rso.bg/
+  author: rsohosting
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: Cpanel DNS Check Account WHM Plugin
   description: Check if all domains are pointed to the server.
   screenshot: ./screenshots/dns-checker.png

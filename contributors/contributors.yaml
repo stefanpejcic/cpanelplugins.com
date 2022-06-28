@@ -70,6 +70,13 @@
   avatar: "./images/autometion.png"
   twitter: ""  
 
+- id: rsohosting
+  name: RSO Hosting
+  bio: Web and game hosting, web design and more.
+  avatar: "./images/rsohosting.png"
+  twitter: "rsobg"  
+
+
 - id: lucyfer622
   name: Jarnick Puaw
   bio: PHP/HTML Developer
