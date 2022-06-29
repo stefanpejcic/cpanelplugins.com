@@ -43,6 +43,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: Clonador
+  description: Plugin de CPanel para clonar Wordpress
+  screenshot: ./screenshots/clonador.png
+  repo: rojo2530/clonador
+  preview: https://www.djfordz.com/
+  author: rojo2530
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: Varnish Cache
   description: Varnish Cache for Cpanel
   screenshot: ./screenshots/varnishcache.png

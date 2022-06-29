@@ -16,6 +16,12 @@
   avatar: "./images/markjb.jpg"
   twitter: "@markjb"
 
+- id: rojo2530
+  name: Jose Cantos
+  bio: Web Developer
+  avatar: "./images/rojo2530.jpg"
+  twitter:
+
 - id: marketgoo
   name: marketgoo
   bio: Resell our SEO tools to help your customers succeed online.
