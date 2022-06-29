@@ -10,6 +10,12 @@
   avatar: "./images/litespeed.jpg"
   twitter: "@litespeedtech"
 
+- id: markjb
+  name: Marcus Benedict
+  bio: Red Hat Certified  Engineer 
+  avatar: "./images/markjb.jpg"
+  twitter: "@markjb"
+
 - id: marketgoo
   name: marketgoo
   bio: Resell our SEO tools to help your customers succeed online.

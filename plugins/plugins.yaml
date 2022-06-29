@@ -25,6 +25,15 @@
   tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
   platforms: strapi
 
+- title: MailSecure
+  description: Allows you to enable and disable Liquid Web MailSecure features per domain.
+  screenshot: ./screenshots/liquidweb.png
+  repo: mark012492/Liquid-Web-MailSecure-cPanel-Plugin
+  preview: https://www.markjb.com/
+  author: markjb
+  tags: gridsome, plugin, blank, markdown, tailwind, fontawesome, minimal
+  platforms: strapi
+
 - title: SSH Whitelist
   description: Cpanel Plugin allows users to add IP to hosts.allow and locks ssh down
   screenshot: ./screenshots/sshwhitelist.png
